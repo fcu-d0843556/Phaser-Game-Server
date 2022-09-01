@@ -25,6 +25,7 @@ let userModel = mongoose.model('UserDatas',userSchema)
 app.post("/register", function (req, res) {
   const {username,password} = req.query;
   let message = ""
+  let isSuccessed = false 
   let isUsernameExisted
 
   userModel.findOne({
@@ -38,16 +39,40 @@ app.post("/register", function (req, res) {
         'password': password
       })
       message = "Register Success!"
+      isSuccessed = true
     }else{
       message = "Username has been used."
     }
     console.log("register message: " , message);
-    res.json({message})
+    res.json({message,isSuccessed})
   })
   
 })
 
+app.post("/login", function (req, res) {
+  const {username,password} = req.query;
+  let message = ""
+  let isSuccessed = false 
 
+  userModel.findOne({
+    username
+  })
+  .then((foundAccount) => {
+    if(foundAccount){
+      if(foundAccount.password === password){
+        message = "Welcome: " + username
+        isSuccessed = true
+      }else{
+        message = "Password incorrect."
+      }
+    }else{
+      message = "This account doesn\'t exist."
+    }
+    console.log("login message: " , message);
+    res.json({message,isSuccessed})
+  })
+  
+})
 
 
 
