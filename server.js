@@ -1,5 +1,6 @@
 const express = require("express")
 const mongoose = require("mongoose")
+const fs = require('fs')
 
 const app = express()
 
@@ -75,7 +76,12 @@ app.post("/login", function (req, res) {
 })
 
 
-
+app.get("/getGameDatas", function (req, res) {
+  const {gameId} = req.query;
+  // console.log("gameId",gameId);
+  const fileDatas = fs.readFileSync(`./public/gameDatas/${gameId}/gameDatas.json`)
+  res.json(JSON.parse(fileDatas));
+})
 
 
 

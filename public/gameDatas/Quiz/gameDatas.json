@@ -1,0 +1,24 @@
+{
+    "scoreText": {
+      "modifyTitle": "計 分 板",
+      "name": "scoreText",
+      "items": [
+        {
+          "parent": "scoreText",
+          "name": "scoreText",
+          "modifyTitle": "計 分 板",
+          "text": {
+              "modifyTitle": "分 數",
+              "description": "答對答錯改變分數",
+              "content": "得分",
+              "style": {
+                  "fontSize": 32,
+                  "fill": "#000"
+              },
+              "x": 16,
+              "y": 16
+          }
+        }
+      ]
+    }
+  }

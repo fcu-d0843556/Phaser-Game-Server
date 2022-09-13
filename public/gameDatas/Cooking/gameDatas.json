@@ -1,0 +1,106 @@
+{
+    "background": {
+      "modifyTitle": "遊 戲 背 景",
+      "name": "background",
+      "items": [
+        {
+          "parent": "background",
+          "name": "background",
+          "modifyTitle": "遊 戲 背 景",
+          "img": {
+            "type": "png",
+            "src": "/img/Games/Common/background.png",
+            "position": {
+              "x": 400,
+              "y": 320
+            },
+            "size": 100
+          }
+        }
+      ]
+    },
+    "foodCan": {
+        "modifyTitle": "製 作 桶",
+        "name": "foodCan",
+        "items": [
+          {
+            "parent": "foodCan",
+            "name": "foodCan",
+            "modifyTitle": "製 作 桶",
+            "img": {
+              "type": "png",
+              "src": "/img/Games/CookingGame/foodCan.png",
+              "position": {
+                  "x": 130,
+                  "y": 340
+              },
+              "size": 100
+            }
+          }
+        ]
+    },
+    "rawFood": {
+      "modifyTitle": "生 的 食 物",
+      "name": "rawFood",
+      "items": [
+        {
+          "parent": "rawFood",
+          "name": "rawFood",
+          "modifyTitle": "生 的 食 物",
+          "img": {
+            "type": "png",
+            "src": "/img/Games/CookingGame/rawFood.png",
+            "position": {
+                "x": 200,
+                "y": 350
+            },
+            "size": 100
+          }
+        }
+      ]
+    },
+    "scoreText": {
+      "modifyTitle": "計 分 板",
+      "name": "scoreText",
+      "items": [
+        {
+          "parent": "scoreText",
+          "name": "scoreText",
+          "modifyTitle": "計 分 板",
+          "text": {
+              "modifyTitle": "分 數",
+              "description": "當給予顧客食物時獲得的分數",
+              "content": "score",
+              "style": {
+                  "fontSize": 32,
+                  "fill": "#000"
+              },
+              "x": 16,
+              "y": 16
+          }
+        }
+      ]
+    },
+    "timeText": {
+      "modifyTitle": "時 間 文 字 方 塊",
+      "name": "timeText",
+      "items": [
+        {
+          "parent": "timeText",
+          "name": "timeText",
+          "modifyTitle": "時 間 文 字 方 塊",
+          "text": {
+            "modifyTitle": "時 間",
+            "description": "計時器的文字",
+            "content": "time",
+            "style": {
+              "fontSize": 32,
+              "fill": "#000"
+            },
+            "x": 16,
+            "y": 54
+          }
+        }
+      ]
+    }
+  }

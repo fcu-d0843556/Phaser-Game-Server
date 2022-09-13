@@ -1,0 +1,95 @@
+{
+    "background": {
+      "modifyTitle": "遊 戲 背 景",
+      "name": "background",
+      "items": [
+        {
+          "parent": "background",
+          "name": "background",
+          "modifyTitle": "遊 戲 背 景",
+          "img": {
+            "type": "png",
+            "src": "/img/Games/Common/background.png",
+            "position": {
+              "x": 400,
+              "y": 320
+            },
+            "size": 100
+          }
+        }
+      ]
+    },
+    "foodCan": {
+        "modifyTitle": "掉 落 物 件",
+        "name": "star",
+        "items": [
+          {
+            "parent": "star",
+            "name": "star",
+            "modifyTitle": "掉 落 物 件",
+            "img": {
+              "type": "png",
+              "src": "/img/Games/CatchFruitGame/star.png",
+              "position": {
+                  "x": 130,
+                  "y": 340
+              },
+              "size": 100
+            },
+            "text": {
+              "modifyTitle": "接 到 物 件 文 字",
+              "description": "接到物件時會顯示出的文字",
+              "content": "Happy!",
+              "style": {
+                  "fontSize": 32,
+                  "fill": "#000"
+              }
+            }
+          }
+        ]
+    },
+    "scoreText": {
+      "modifyTitle": "計 分 板",
+      "name": "scoreText",
+      "items": [
+        {
+          "parent": "scoreText",
+          "name": "scoreText",
+          "modifyTitle": "計 分 板",
+          "text": {
+              "modifyTitle": "分 數",
+              "description": "當撿到落下物件時獲得分數",
+              "content": "score",
+              "style": {
+                  "fontSize": 32,
+                  "fill": "#000"
+              },
+              "x": 16,
+              "y": 16
+          }
+        }
+      ]
+    },
+    "timeText": {
+      "modifyTitle": "時 間 文 字 方 塊",
+      "name": "timeText",
+      "items": [
+        {
+          "parent": "timeText",
+          "name": "timeText",
+          "modifyTitle": "時 間 文 字 方 塊",
+          "text": {
+            "modifyTitle": "時 間",
+            "description": "計時器的文字",
+            "content": "time",
+            "style": {
+              "fontSize": 32,
+              "fill": "#000"
+            },
+            "x": 16,
+            "y": 54
+          }
+        }
+      ]
+    }
+  }
