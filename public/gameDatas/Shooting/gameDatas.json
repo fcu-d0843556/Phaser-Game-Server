@@ -17,7 +17,10 @@
             "size": 100
           }
         }
-      ]
+      ],
+      "defaultData": {
+        "description": "blueSky"
+      }
     },
     "timeText": {
       "modifyTitle": "時 間 文 字 方 塊",

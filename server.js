@@ -83,7 +83,12 @@ app.get("/getGameDatas", function (req, res) {
   res.json(JSON.parse(fileDatas));
 })
 
-
+app.get("/getDefaultImgDatas", function (req, res) {
+  const {name,gameId} = req.query;
+  console.log(" DefaultDatas name: ",name,"  gameId: ",gameId);
+  const fileDatas = fs.readFileSync(`./public/gameDatas/${gameId}/${name}Default.json`)
+  res.json(JSON.parse(fileDatas));
+})
 
 // app.get("/search/users", function (req, res) {
 //   const {q} = req.query

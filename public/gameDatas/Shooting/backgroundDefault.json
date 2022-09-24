@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/Common/background.png",
+        "position": {
+          "x": 400,
+          "y": 320
+        },
+        "size": 100
+      },
+      "defaultData": {
+        "description": "blueSky"
+      }
+    },
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/Common/foodBg.png",
+        "position": {
+          "x": 400,
+          "y": 320
+        },
+        "size": 101
+      },
+      "defaultData": {
+        "description": "purpleGradient"
+      }
+    },
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/Common/foodBg1.png",
+        "position": {
+          "x": 400,
+          "y": 320
+        },
+        "size": 102
+      },
+      "defaultData": {
+        "description": "foodBackground"
+      }
+    },
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/Common/newYearBg.png",
+        "position": {
+          "x": 400,
+          "y": 320
+        },
+        "size": 103
+      },
+      "defaultData": {
+        "description": "orangeGradient"
+      }
+    },
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/Common/newYearBg2.png",
+        "position": {
+          "x": 400,
+          "y": 320
+        },
+        "size": 104
+      },
+      "defaultData": {
+        "description": "yellowGradient"
+      }
+    }
+  ]
+}
