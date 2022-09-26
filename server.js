@@ -83,10 +83,41 @@ app.post("/login", function (req, res) {
 
 
 app.get("/getGameDatas", function (req, res) {
-  const {gameId} = req.query;
-  // console.log("gameId",gameId);
-  const fileDatas = fs.readFileSync(`./public/gameDatas/${gameId}/gameDatas.json`)
-  res.json(JSON.parse(fileDatas));
+  const {gameId,username,userMode} = req.query;
+  console.log("gameId:",gameId,"   username:",username,"   userMode:", userMode);
+
+  let userPublishGameModel = mongoose.model(username, userPublishGameSchema)
+
+
+  
+  userPublishGameModel.findOne(
+    {gameId,username}
+  ).then((data)=>{
+    if(data){
+      // console.log('user found');
+      res.json({
+        gameDatas: data.gameModifyDatas,
+        message: "已找到您最近的修改資料，讀取完成！",
+        notFound: false
+      });        
+    }else {
+      if(userMode === "play"){
+          // console.log('user not found');
+          res.json({
+            message: "沒有找到這個遊戲！",
+            notFound: true
+          });
+      }else if(userMode === "modify"){
+          // console.log('user not found, using default datas');
+          const fileDatas = fs.readFileSync(`./public/gameDatas/${gameId}/gameDatas.json`)
+          // console.log(JSON.parse(fileDatas));
+          res.json({
+            gameDatas: JSON.parse(fileDatas),
+            message: "沒有找到這個遊戲的修改資料，使用默認資料"
+          });
+      }
+    }
+  })
 })
 
 app.get("/getDefaultImgDatas", function (req, res) {
@@ -99,6 +130,7 @@ app.get("/getDefaultImgDatas", function (req, res) {
 app.post("/publishGame", function (req, res) {
   const {gameId,username,gameModifyDatas} = req.query;
   // console.log();
+  let isSuccessed = false 
   
   let userPublishGameModel = mongoose.model(username, userPublishGameSchema)
 
@@ -107,13 +139,18 @@ app.post("/publishGame", function (req, res) {
     {gameId,username,gameModifyDatas: JSON.parse(gameModifyDatas)}
   ).then((data)=>{
     if(!data){
-      console.log("inin");
       userPublishGameModel.create({
         gameId,username,
         gameModifyDatas: JSON.parse(gameModifyDatas)
       })
     }
+    isSuccessed = true
   })
+
+  res.json({
+    isSuccessed,
+    gameUrl: `playGame/?gameId=${gameId}&username=${username}`
+  });
 })
 // app.get("/search/users", function (req, res) {
 //   const {q} = req.query
