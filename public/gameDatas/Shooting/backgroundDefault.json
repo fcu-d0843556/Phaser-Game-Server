@@ -25,7 +25,7 @@
         "type": "png",
         "src": "/img/Games/Common/foodBg.png",
         "position": {
-          "x": 400,
+          "x": 401,
           "y": 320
         },
         "size": 101
@@ -42,7 +42,7 @@
         "type": "png",
         "src": "/img/Games/Common/foodBg1.png",
         "position": {
-          "x": 400,
+          "x": 402,
           "y": 320
         },
         "size": 102
@@ -59,7 +59,7 @@
         "type": "png",
         "src": "/img/Games/Common/newYearBg.png",
         "position": {
-          "x": 400,
+          "x": 403,
           "y": 320
         },
         "size": 103
@@ -76,7 +76,7 @@
         "type": "png",
         "src": "/img/Games/Common/newYearBg2.png",
         "position": {
-          "x": 400,
+          "x": 404,
           "y": 320
         },
         "size": 104

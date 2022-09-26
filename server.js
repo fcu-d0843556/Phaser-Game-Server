@@ -19,6 +19,12 @@ let userSchema = new mongoose.Schema({
   password: String
 })
 
+let userPublishGameSchema = new mongoose.Schema({
+  username: String,
+  gameId: String,
+  gameModifyDatas: Object
+})
+
 let userModel = mongoose.model('UserDatas',userSchema)
 
 
@@ -90,6 +96,25 @@ app.get("/getDefaultImgDatas", function (req, res) {
   res.json(JSON.parse(fileDatas));
 })
 
+app.post("/publishGame", function (req, res) {
+  const {gameId,username,gameModifyDatas} = req.query;
+  // console.log();
+  
+  let userPublishGameModel = mongoose.model(username, userPublishGameSchema)
+
+  userPublishGameModel.findOneAndReplace(
+    {gameId,username},
+    {gameId,username,gameModifyDatas: JSON.parse(gameModifyDatas)}
+  ).then((data)=>{
+    if(!data){
+      console.log("inin");
+      userPublishGameModel.create({
+        gameId,username,
+        gameModifyDatas: JSON.parse(gameModifyDatas)
+      })
+    }
+  })
+})
 // app.get("/search/users", function (req, res) {
 //   const {q} = req.query
 //   axios({
