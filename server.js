@@ -27,6 +27,7 @@ let userPublishGameSchema = new mongoose.Schema({
 
 let userModel = mongoose.model('UserDatas',userSchema)
 
+app.get('/', (req, res) => res.send('Hello World!'))
 
 //app
 app.post("/register", function (req, res) {
