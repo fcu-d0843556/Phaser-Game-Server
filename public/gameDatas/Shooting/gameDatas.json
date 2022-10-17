@@ -34,7 +34,8 @@
             "inputType": "text",
             "style": {
               "fontSize": 32,
-              "fill": "#000"
+              "fill": "#fff",
+              "backgroundColor": "#000"
             },
             "x": 16,
             "y": 54
@@ -57,7 +58,8 @@
             "inputType": "number",
             "style": {
               "fontSize": 32,
-              "fill": "#000"
+              "fill": "#fff",
+              "backgroundColor": "#000"
             },
             "x": 16,
             "y": 54
@@ -75,10 +77,6 @@
           "modifyTitle": "氣 球 1",
           "img": {
             "src": "/img/Games/ShootingGame/balloon1.png",
-            "position": {
-              "x": 400,
-              "y": 320
-            },
             "size": 55
           },
           "text": {
@@ -86,6 +84,9 @@
             "description": "擊破氣球時會顯示出的文字",
             "content": "祝你天天開心！",
             "inputType": "text"
+          },
+          "score": {
+            "content": 10
           }
         },
         {
@@ -94,10 +95,6 @@
           "modifyTitle": "氣 球 2",
           "img": {
             "src": "/img/Games/ShootingGame/balloon2.png",
-            "position": {
-              "x": 400,
-              "y": 320
-            },
             "size": 55
           },
           "text": {
@@ -105,6 +102,9 @@
             "description": "擊破氣球時會顯示出的文字",
             "content": "祝你事事順利！",
             "inputType": "text"
+          },
+          "score": {
+            "content": 15
           }
         },
         {
@@ -113,10 +113,6 @@
           "modifyTitle": "氣 球 3",
           "img": {
             "src": "/img/Games/ShootingGame/balloon3.png",
-            "position": {
-              "x": 400,
-              "y": 320
-            },
             "size": 55
           },
           "text": {
@@ -124,6 +120,9 @@
             "description": "擊破氣球時會顯示出的文字",
             "content": "祝你身體健康！",
             "inputType": "text"
+          },
+          "score": {
+            "content": 20
           }
         },
         {
@@ -132,10 +131,6 @@
           "modifyTitle": "氣 球 4",
           "img": {
             "src": "/img/Games/ShootingGame/balloon4.png",
-            "position": {
-              "x": 400,
-              "y": 320
-            },
             "size": 55
           },
           "text": {
@@ -143,6 +138,9 @@
             "description": "擊破氣球時會顯示出的文字",
             "content": "永遠愛你！",
             "inputType": "text"
+          },
+          "score": {
+            "content": 25
           }
         },
         {
@@ -151,10 +149,6 @@
           "modifyTitle": "氣 球 5",
           "img": {
             "src": "/img/Games/ShootingGame/balloon5.png",
-            "position": {
-              "x": 400,
-              "y": 320
-            },
             "size": 55
           },
           "text": {
@@ -162,6 +156,9 @@
             "description": "擊破氣球時會顯示出的文字",
             "content": "（づ￣3￣）づ╭❤～",
             "inputType": "text"
+          },
+          "score": {
+            "content": 30
           }
         }
       ]

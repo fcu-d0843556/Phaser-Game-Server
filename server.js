@@ -83,7 +83,7 @@ app.post("/login", function (req, res) {
 
 
 app.get("/getGameDatas", function (req, res) {
-  const {gameId,username,userMode} = req.query;
+  const {gameId,username,userMode,actionType} = req.query;
   console.log("gameId:",gameId,"   username:",username,"   userMode:", userMode);
 
   let userPublishGameModel = mongoose.model(username, userPublishGameSchema)
@@ -93,7 +93,7 @@ app.get("/getGameDatas", function (req, res) {
   userPublishGameModel.findOne(
     {gameId,username}
   ).then((data)=>{
-    if(data){
+    if(data && actionType != "default"){
       // console.log('user found');
       res.json({
         gameDatas: data.gameModifyDatas,
@@ -152,6 +152,7 @@ app.post("/publishGame", function (req, res) {
     gameUrl: `playGame/?gameId=${gameId}&username=${username}`
   });
 })
+
 // app.get("/search/users", function (req, res) {
 //   const {q} = req.query
 //   axios({
