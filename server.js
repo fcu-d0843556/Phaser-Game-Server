@@ -61,7 +61,6 @@ app.post("/login", function (req, res) {
   const {username,password} = req.query;
   let message = ""
   let isSuccessed = false 
-  console.log("login!");
   userModel.findOne({
     username
   })
@@ -184,7 +183,7 @@ app.post("/publishGame", function (req, res) {
 //   });
 // });
 
-app.listen(5000, "0.0.0.0", (err) => {
-  if (!err){ console.log("connect 5000")} 
+app.listen(5050, "0.0.0.0", (err) => {
+  if (!err){ console.log("connect 5050")} 
   else console.log(err);
 })
