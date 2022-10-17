@@ -34,8 +34,7 @@
             "inputType": "text",
             "style": {
               "fontSize": 32,
-              "fill": "#fff",
-              "backgroundColor": "#000"
+              "fill": "#fff"         
             },
             "x": 16,
             "y": 54
@@ -56,11 +55,6 @@
             "description": "當接到、擊破道具時會出現的文字",
             "content": 10,
             "inputType": "number",
-            "style": {
-              "fontSize": 32,
-              "fill": "#fff",
-              "backgroundColor": "#000"
-            },
             "x": 16,
             "y": 54
           }
