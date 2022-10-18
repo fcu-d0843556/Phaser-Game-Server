@@ -80,8 +80,9 @@
             "inputType": "text"
           },
           "score": {
-            "content": 10
-          }
+            "content": 50
+          },
+          "priority": 1
         },
         {
           "parent": "balloon",
@@ -98,8 +99,9 @@
             "inputType": "text"
           },
           "score": {
-            "content": 15
-          }
+            "content": 30
+          },
+          "priority": 2
         },
         {
           "parent": "balloon",
@@ -116,8 +118,9 @@
             "inputType": "text"
           },
           "score": {
-            "content": 20
-          }
+            "content": -10
+          },
+          "priority": 3
         },
         {
           "parent": "balloon",
@@ -134,8 +137,9 @@
             "inputType": "text"
           },
           "score": {
-            "content": 25
-          }
+            "content": 20
+          },
+          "priority": 4
         },
         {
           "parent": "balloon",
@@ -152,8 +156,9 @@
             "inputType": "text"
           },
           "score": {
-            "content": 30
-          }
+            "content": 10
+          },
+          "priority": 5
         }
       ]
     }
