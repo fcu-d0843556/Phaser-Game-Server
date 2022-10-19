@@ -84,7 +84,7 @@ app.post("/login", function (req, res) {
 
 app.get("/getGameDatas", function (req, res) {
   const {gameId,username,userMode,actionType} = req.query;
-  console.log("gameId:",gameId,"   username:",username,"   userMode:", userMode);
+  // console.log("gameId:",gameId,"   username:",username,"   userMode:", userMode);
 
   let userPublishGameModel = mongoose.model(username, userPublishGameSchema)
 
@@ -122,7 +122,7 @@ app.get("/getGameDatas", function (req, res) {
 
 app.get("/getDefaultImgDatas", function (req, res) {
   const {name,gameId} = req.query;
-  console.log(" DefaultDatas name: ",name,"  gameId: ",gameId);
+  // console.log(" DefaultDatas name: ",name,"  gameId: ",gameId);
   const fileDatas = fs.readFileSync(`./public/gameDatas/${gameId}/${name}Default.json`)
   res.json(JSON.parse(fileDatas));
 })
