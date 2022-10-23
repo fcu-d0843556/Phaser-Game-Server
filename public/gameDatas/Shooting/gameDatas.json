@@ -80,6 +80,7 @@
             "inputType": "text"
           },
           "score": {
+            "modifyTitle": "氣 球 擊 破 得 分",
             "content": 50
           },
           "priority": {
@@ -103,6 +104,7 @@
             "inputType": "text"
           },
           "score": {
+            "modifyTitle": "氣 球 擊 破 得 分",
             "content": 30
           },
           "priority": {
@@ -126,6 +128,7 @@
             "inputType": "text"
           },
           "score": {
+            "modifyTitle": "氣 球 擊 破 得 分",
             "content": -10
           },
           "priority": {
@@ -149,6 +152,7 @@
             "inputType": "text"
           },
           "score": {
+            "modifyTitle": "氣 球 擊 破 得 分",
             "content": 20
           },
           "priority": {
@@ -172,6 +176,7 @@
             "inputType": "text"
           },
           "score": {
+            "modifyTitle": "氣 球 擊 破 得 分",
             "content": 10
           },
           "priority": {
@@ -207,6 +212,7 @@
           "name": "gameoverMessage",
           "modifyTitle": "評 價 文 字",
           "gameoverMessage": {
+            "modifyTitle": "遊 戲 結 束 評 價",
             "description": "玩家遊戲結束時對分數進行不同的評價",
             "score": [-100,0,100],
             "message": ["要加油!","很不錯!","太厲害了!"]
