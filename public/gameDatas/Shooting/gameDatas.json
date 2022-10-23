@@ -19,18 +19,18 @@
         }
       ]
     },
-    "timeText": {
-      "modifyTitle": "時 間 文 字 方 塊",
-      "name": "timeText",
+    "gameTutorialText": {
+      "modifyTitle": "遊 戲 說 明",
+      "name": "gameTutorialText",
       "items": [
         {
-          "parent": "timeText",
-          "name": "timeText",
-          "modifyTitle": "時 間 文 字 方 塊",
+          "parent": "gameTutorialText",
+          "name": "gameTutorialText",
+          "modifyTitle": "遊 戲 說 明",
           "text": {
-            "modifyTitle": "時 間",
-            "description": "當接到、擊破道具時會出現的文字",
-            "content": "time",
+            "modifyTitle": "遊 戲 說 明",
+            "description": "遊戲開始前的遊戲說明內容",
+            "content": "在時間內打到越多的氣球!",
             "inputType": "text",
             "style": {
               "fontSize": 32,
@@ -52,7 +52,7 @@
           "modifyTitle": "遊 戲 時 間",
           "text": {
             "modifyTitle": "時 間",
-            "description": "當接到、擊破道具時會出現的文字",
+            "description": "遊戲的遊玩時間",
             "content": 10,
             "inputType": "number",
             "x": 16,
@@ -82,7 +82,11 @@
           "score": {
             "content": 50
           },
-          "priority": 1
+          "priority": {
+            "modifyTitle": "氣 球 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 1
+          }
         },
         {
           "parent": "balloon",
@@ -101,7 +105,11 @@
           "score": {
             "content": 30
           },
-          "priority": 2
+          "priority": {
+            "modifyTitle": "氣 球 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 2 
+          }
         },
         {
           "parent": "balloon",
@@ -120,7 +128,11 @@
           "score": {
             "content": -10
           },
-          "priority": 3
+          "priority": {
+            "modifyTitle": "氣 球 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 3 
+          }
         },
         {
           "parent": "balloon",
@@ -139,7 +151,11 @@
           "score": {
             "content": 20
           },
-          "priority": 4
+          "priority": {
+            "modifyTitle": "氣 球 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 4 
+          }
         },
         {
           "parent": "balloon",
@@ -158,7 +174,43 @@
           "score": {
             "content": 10
           },
-          "priority": 5
+          "priority": {
+            "modifyTitle": "氣 球 出 現 機 率",
+            "content": [ "非常低", "低", "一般", "高", "非常高"],
+            "selected": 5 
+          }
+        }
+      ]
+    },
+    "balloonSpeed": {
+      "modifyTitle": "氣 球 速 度",
+      "name": "balloonSpeed",
+      "items": [
+        {
+          "parent": "balloonSpeed",
+          "name": "balloonSpeed",
+          "modifyTitle": "氣 球 速 度",
+          "priority": {
+            "modifyTitle": "氣 球 上 升 速 度",
+            "content": [ "非常慢", "慢", "普通", "快", "非常快"],
+            "selected": 3
+          }
+        }
+      ]
+    },
+    "gameoverMessage": {
+      "modifyTitle": "遊 戲 結 束 評 價",
+      "name": "gameoverMessage",
+      "items": [
+        {
+          "parent": "gameoverMessage",
+          "name": "gameoverMessage",
+          "modifyTitle": "評 價 文 字",
+          "gameoverMessage": {
+            "description": "玩家遊戲結束時對分數進行不同的評價",
+            "score": [-100,0,100],
+            "message": ["要加油!","很不錯!","太厲害了!"]
+          }
         }
       ]
     }
