@@ -49,7 +49,7 @@ app.post("/register", function (req, res) {
       message = "Register Success!"
       isSuccessed = true
     }else{
-      message = "Username has been used."
+      message = "這個用戶名已經有人使用"
     }
     console.log("register message: " , message);
     res.json({message,isSuccessed})
@@ -70,10 +70,10 @@ app.post("/login", function (req, res) {
         message = "Welcome: " + username
         isSuccessed = true
       }else{
-        message = "Password incorrect."
+        message = "密碼輸入錯誤"
       }
     }else{
-      message = "This account doesn\'t exist."
+      message = "帳號不存在"
     }
     console.log("login message: " , message);
     res.json({message,isSuccessed})
@@ -122,7 +122,7 @@ app.get("/getGameDatas", function (req, res) {
 
 app.get("/getDefaultImgDatas", function (req, res) {
   const {name,gameId} = req.query;
-  console.log(" DefaultDatas name: ",name,"  gameId: ",gameId);
+  // console.log(" DefaultDatas name: ",name,"  gameId: ",gameId);
 
   const fileDatas = fs.readFileSync(`./public/gameDatas/${gameId}/${name}Default.json`)
 
