@@ -1,105 +1,40 @@
 {
   "items": [
     {
-      "parent": "balloon",
-      "name": "balloon1",
-      "modifyTitle": "氣 球 1",
       "img": {
-        "src": "/img/Games/ShootingGame/balloon1.png",
-        "size": 55
-      },
-      "text": {
-        "modifyTitle": "氣 球 擊 破 文 字",
-        "description": "擊破氣球時會顯示出的文字",
-        "content": "祝你天天開心！",
-        "inputType": "text"
-      },
-      "score": {
-        "content": 10
+        "src": "/img/Games/ShootingGame/balloon1.png"
       },
       "defaultData": {
         "description": "Red Balloon"
       }
     },
     {
-      "parent": "balloon",
-      "name": "balloon2",
-      "modifyTitle": "氣 球 2",
       "img": {
-        "src": "/img/Games/ShootingGame/balloon2.png",
-        "size": 56
-      },
-      "text": {
-        "modifyTitle": "氣 球 擊 破 文 字",
-        "description": "擊破氣球時會顯示出的文字",
-        "content": "祝你事事順利！",
-        "inputType": "text"
-      },
-      "score": {
-        "content": 15
+        "src": "/img/Games/ShootingGame/balloon2.png"
       },
       "defaultData": {
         "description": "Green Balloon"
       }
     },
     {
-      "parent": "balloon",
-      "name": "balloon3",
-      "modifyTitle": "氣 球 3",
       "img": {
-        "src": "/img/Games/ShootingGame/balloon3.png",
-        "size": 57
-      },
-      "text": {
-        "modifyTitle": "氣 球 擊 破 文 字",
-        "description": "擊破氣球時會顯示出的文字",
-        "content": "祝你身體健康！",
-        "inputType": "text"
-      },
-      "score": {
-        "content": 20
+        "src": "/img/Games/ShootingGame/balloon3.png"
       },
       "defaultData": {
         "description": "Pink Balloon"
       }
     },
     {
-      "parent": "balloon",
-      "name": "balloon4",
-      "modifyTitle": "氣 球 4",
       "img": {
-        "src": "/img/Games/ShootingGame/balloon4.png",
-        "size": 58
-      },
-      "text": {
-        "modifyTitle": "氣 球 擊 破 文 字",
-        "description": "擊破氣球時會顯示出的文字",
-        "content": "永遠愛你！",
-        "inputType": "text"
-      },
-      "score": {
-        "content": 25
+        "src": "/img/Games/ShootingGame/balloon4.png"
       },
       "defaultData": {
         "description": "Yellow Balloon"
       }
     },
     {
-      "parent": "balloon",
-      "name": "balloon5",
-      "modifyTitle": "氣 球 5",
       "img": {
-        "src": "/img/Games/ShootingGame/balloon5.png",
-        "size": 59
-      },
-      "text": {
-        "modifyTitle": "氣 球 擊 破 文 字",
-        "description": "擊破氣球時會顯示出的文字",
-        "content": "（づ￣3￣）づ╭❤～",
-        "inputType": "text"
-      },
-      "score": {
-        "content": 30
+        "src": "/img/Games/ShootingGame/balloon5.png"
       },
       "defaultData": {
         "description": "Blue Balloon"

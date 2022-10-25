@@ -122,8 +122,9 @@ app.get("/getGameDatas", function (req, res) {
 
 app.get("/getDefaultImgDatas", function (req, res) {
   const {name,gameId} = req.query;
+  console.log(" DefaultDatas name: ",name,"  gameId: ",gameId);
+
   const fileDatas = fs.readFileSync(`./public/gameDatas/${gameId}/${name}Default.json`)
-    // console.log(" DefaultDatas name: ",name,"  gameId: ",gameId);
 
   res.json(JSON.parse(fileDatas));
 })
