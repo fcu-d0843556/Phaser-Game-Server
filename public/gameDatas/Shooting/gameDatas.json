@@ -1,6 +1,7 @@
 {
     "background": {
       "modifyTitle": "遊 戲 背 景",
+      "modifyDetail": "可以更改遊戲背景中的圖片",
       "name": "background",
       "items": [
         {
@@ -21,6 +22,7 @@
     },
     "gameTutorialText": {
       "modifyTitle": "遊 戲 說 明",
+      "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
       "name": "gameTutorialText",
       "items": [
         {
@@ -44,6 +46,7 @@
     },
     "gameTimer": {
       "modifyTitle": "遊 戲 時 間",
+      "modifyDetail": "設定整個遊戲的時間限制",
       "name": "gameTimer",
       "items": [
         {
@@ -63,6 +66,7 @@
     },
     "balloon": {
       "modifyTitle": "氣 球",
+      "modifyDetail": "可以設定遊戲中上升物件的各種數值，例如：圖片、出現頻率、打破出現的文字等",
       "name": "balloon",
       "items": [
         {
@@ -189,6 +193,7 @@
     },
     "balloonSpeed": {
       "modifyTitle": "氣 球 速 度",
+      "modifyDetail": "可以設定遊戲氣球上升時的速度，增加遊戲的難度",
       "name": "balloonSpeed",
       "items": [
         {
@@ -205,6 +210,7 @@
     },
     "gameoverMessage": {
       "modifyTitle": "遊 戲 結 束 評 價",
+      "modifyDetail": "根據玩家遊戲結束時獲得的分數，我們可以設置不同的文字",
       "name": "gameoverMessage",
       "items": [
         {
@@ -214,8 +220,8 @@
           "gameoverMessage": {
             "modifyTitle": "遊 戲 結 束 評 價",
             "description": "玩家遊戲結束時對分數進行不同的評價",
-            "score": [-100,0,100],
-            "message": ["要加油!","很不錯!","太厲害了!"]
+            "score": [100,50,0],
+            "message": ["太厲害了!","很不錯!","要加油!"]
           }
         }
       ]
