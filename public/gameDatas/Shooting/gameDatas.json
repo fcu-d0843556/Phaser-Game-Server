@@ -33,13 +33,7 @@
             "modifyTitle": "遊 戲 說 明",
             "description": "遊戲開始前的遊戲說明內容",
             "content": "在時間內打到越多的氣球!",
-            "inputType": "text",
-            "style": {
-              "fontSize": 32,
-              "fill": "#fff"         
-            },
-            "x": 16,
-            "y": 54
+            "inputType": "text"
           } 
         }
       ]
@@ -58,8 +52,7 @@
             "description": "遊戲的遊玩時間",
             "content": 10,
             "inputType": "number",
-            "x": 16,
-            "y": 54
+            "unit": "秒"
           }
         }
       ]
