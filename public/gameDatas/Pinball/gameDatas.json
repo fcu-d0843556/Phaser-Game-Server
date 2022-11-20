@@ -20,6 +20,24 @@
         }
       ]
     },
+    "gameTutorialText": {
+      "modifyTitle": "遊 戲 說 明",
+      "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
+      "name": "gameTutorialText",
+      "items": [
+        {
+          "parent": "gameTutorialText",
+          "name": "gameTutorialText",
+          "modifyTitle": "遊 戲 說 明",
+          "text": {
+            "modifyTitle": "遊 戲 說 明",
+            "description": "遊戲開始前的遊戲說明內容",
+            "content": "看準力道的上升，\n點擊射擊按鈕發射彈珠！\n\n看你可以拿幾分，\n分數高會有大獎哦！",
+            "inputType": "text"
+          } 
+        }
+      ]
+    },
     "pinball": {
       "modifyTitle": "彈 珠 相 關",
       "modifyDetail": "可以設定彈珠",
@@ -113,6 +131,24 @@
             "modifyTitle": "力 道 增 加 速 度",
             "content": [ "非常慢", "慢", "中等", "快", "非常快"],
             "selected": 3
+          }
+        }
+      ]
+    },
+    "gameoverMessage": {
+      "modifyTitle": "遊 戲 結 束 評 價",
+      "modifyDetail": "根據玩家遊戲結束時獲得的分數，我們可以設置不同的文字",
+      "name": "gameoverMessage",
+      "items": [
+        {
+          "parent": "gameoverMessage",
+          "name": "gameoverMessage",
+          "modifyTitle": "評 價 文 字",
+          "gameoverMessage": {
+            "modifyTitle": "遊 戲 結 束 評 價",
+            "description": "玩家遊戲結束時對分數進行不同的評價",
+            "score": [100,50,0],
+            "message": ["太厲害了!","很不錯!","要加油!"]
           }
         }
       ]
