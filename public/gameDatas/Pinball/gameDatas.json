@@ -12,10 +12,10 @@
             "type": "png",
             "src": "/img/Games/PinballGame/woodenBG.png",
             "position": {
-              "x": 400,
+              "x": 180,
               "y": 320
             },
-            "size": 100
+            "size": 57
           }
         }
       ]
@@ -28,34 +28,92 @@
         {
           "parent": "pinball",
           "name": "pinball",
-          "modifyTitle": "彈 珠 相 關"
+          "modifyTitle": "彈 珠 相 關",
+          "text": {
+            "modifyTitle": "彈 珠 的 數 量",
+            "content": 10,
+            "inputType": "number",
+            "unit": "顆",
+            "max": 10,
+            "min": 3
+          }
           
         }
       ]
     },
     "pinballGoal": {
       "modifyTitle": "落 下 區 域 相 關",
-      "modifyDetail": "可以設定當球落到間隔會發生的事情",
+      "modifyDetail": "可以設定當彈珠落到間隔會發生的事情",
       "name": "pinballGoal",
       "items": [
         {
           "parent": "pinballGoal",
-          "name": "pinballGoal",
-          "modifyTitle": "落 下 區 域 相 關"
-          
+          "name": "pinballGoal1",
+          "modifyTitle": "最左邊的空格",
+          "score": {
+            "modifyTitle": "彈 珠 落 下 得 分",
+            "content": 10,
+            "max": 9999,
+            "min": -999
+          }
+        },{
+          "parent": "pinballGoal",
+          "name": "pinballGoal2",
+          "modifyTitle": "左邊的空格",
+          "score": {
+            "modifyTitle": "彈 珠 落 下 得 分",
+            "content": 25,
+            "max": 9999,
+            "min": -999
+          }
+        },{
+          "parent": "pinballGoal",
+          "name": "pinballGoal3",
+          "modifyTitle": "中間的空格",
+          "score": {
+            "modifyTitle": "彈 珠 落 下 得 分",
+            "content": 100,
+            "max": 9999,
+            "min": -999
+          }
+        },{
+          "parent": "pinballGoal",
+          "name": "pinballGoal4",
+          "modifyTitle": "右邊的空格",
+          "score": {
+            "modifyTitle": "彈 珠 落 下 得 分",
+            "content": 25,
+            "max": 9999,
+            "min": -999
+          }
+        },{
+          "parent": "pinballGoal",
+          "name": "pinballGoal5",
+          "modifyTitle": "最右邊的空格",
+          "score": {
+            "modifyTitle": "彈 珠 落 下 得 分",
+            "content": 10,
+            "max": 9999,
+            "min": -999
+          }
         }
+        
       ]
     },
-    "powerBar": {
+    "gameRule": {
       "modifyTitle": "遊 戲 規 則",
       "modifyDetail": "一些規則上的設定，例如力氣條的速度，要怎麼射擊彈珠等",
-      "name": "powerBar",
+      "name": "gameRule",
       "items": [
         {
-          "parent": "powerBar",
-          "name": "powerBar",
-          "modifyTitle": "遊 戲 規 則"
-          
+          "parent": "gameRule",
+          "name": "gameRule",
+          "modifyTitle": "遊 戲 規 則",
+          "priority": {
+            "modifyTitle": "力 道 增 加 速 度",
+            "content": [ "非常慢", "慢", "中等", "快", "非常快"],
+            "selected": 3
+          }
         }
       ]
     }

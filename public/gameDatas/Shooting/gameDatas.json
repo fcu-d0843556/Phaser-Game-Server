@@ -49,10 +49,11 @@
           "modifyTitle": "遊 戲 時 間",
           "text": {
             "modifyTitle": "時 間",
-            "description": "遊戲的遊玩時間",
             "content": 10,
             "inputType": "number",
-            "unit": "秒"
+            "unit": "秒",
+            "max": 1000,
+            "min": 1
           }
         }
       ]
@@ -72,13 +73,14 @@
           },
           "text": {
             "modifyTitle": "氣 球 擊 破 文 字",
-            "description": "擊破氣球時會顯示出的文字",
             "content": "祝你天天開心！",
             "inputType": "text"
           },
           "score": {
             "modifyTitle": "氣 球 擊 破 得 分",
-            "content": 50
+            "content": 50,
+            "max": 100000,
+            "min": -100000
           },
           "priority": {
             "modifyTitle": "氣 球 出 現 機 率",
@@ -96,13 +98,14 @@
           },
           "text": {
             "modifyTitle": "氣 球 擊 破 文 字",
-            "description": "擊破氣球時會顯示出的文字",
             "content": "祝你事事順利！",
             "inputType": "text"
           },
           "score": {
             "modifyTitle": "氣 球 擊 破 得 分",
-            "content": 30
+            "content": 30,
+            "max": 100000,
+            "min": -100000
           },
           "priority": {
             "modifyTitle": "氣 球 出 現 機 率",
@@ -120,13 +123,14 @@
           },
           "text": {
             "modifyTitle": "氣 球 擊 破 文 字",
-            "description": "擊破氣球時會顯示出的文字",
             "content": "祝你身體健康！",
             "inputType": "text"
           },
           "score": {
             "modifyTitle": "氣 球 擊 破 得 分",
-            "content": -10
+            "content": -10,
+            "max": 100000,
+            "min": -100000
           },
           "priority": {
             "modifyTitle": "氣 球 出 現 機 率",
@@ -144,13 +148,14 @@
           },
           "text": {
             "modifyTitle": "氣 球 擊 破 文 字",
-            "description": "擊破氣球時會顯示出的文字",
             "content": "永遠愛你！",
             "inputType": "text"
           },
           "score": {
             "modifyTitle": "氣 球 擊 破 得 分",
-            "content": 20
+            "content": 20,
+            "max": 100000,
+            "min": -100000
           },
           "priority": {
             "modifyTitle": "氣 球 出 現 機 率",
@@ -168,13 +173,14 @@
           },
           "text": {
             "modifyTitle": "氣 球 擊 破 文 字",
-            "description": "擊破氣球時會顯示出的文字",
             "content": "（づ￣3￣）づ╭❤～",
             "inputType": "text"
           },
           "score": {
             "modifyTitle": "氣 球 擊 破 得 分",
-            "content": 10
+            "content": 10,
+            "max": 100000,
+            "min": -100000
           },
           "priority": {
             "modifyTitle": "氣 球 出 現 機 率",
