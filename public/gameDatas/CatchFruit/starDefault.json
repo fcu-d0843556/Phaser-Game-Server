@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "parent": "star",
+      "name": "star",
+      "modifyTitle": "掉 落 物 件",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/CatchFruitGame/star.png",
+        "size": 100
+      },
+      "defaultData": {
+        "description": "星星"
+      }
+    },
+    {
+      "parent": "star",
+      "name": "star",
+      "modifyTitle": "掉 落 物 件",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/CatchFruitGame/bomb.png",
+        "size": 150
+      },
+      "defaultData": {
+        "description": "炸彈"
+      }
+    }
+  ]
+}

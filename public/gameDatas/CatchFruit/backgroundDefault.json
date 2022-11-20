@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/Common/background.png",
+        "position": {
+          "x": 400,
+          "y": 320
+        },
+        "size": 100
+      },
+      "defaultData": {
+        "description": "藍天背景"
+      }
+    },
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/Common/foodBg.png",
+        "position": {
+          "x": 401,
+          "y": 320
+        },
+        "size": 101
+      },
+      "defaultData": {
+        "description": "紫色漸層背景"
+      }
+    },
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/Common/foodBg1.png",
+        "position": {
+          "x": 402,
+          "y": 320
+        },
+        "size": 102
+      },
+      "defaultData": {
+        "description": "食物背景"
+      }
+    },
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/Common/newYearBg.png",
+        "position": {
+          "x": 403,
+          "y": 320
+        },
+        "size": 103
+      },
+      "defaultData": {
+        "description": "橙色漸層背景"
+      }
+    },
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/Common/newYearBg2.png",
+        "position": {
+          "x": 404,
+          "y": 320
+        },
+        "size": 104
+      },
+      "defaultData": {
+        "description": "黃色漸層背景"
+      }
+    },
+    {
+      "parent": "background",
+      "name": "background",
+      "modifyTitle": "遊 戲 背 景",
+      "img": {
+        "type": "png",
+        "src": "/img/Games/PinballGame/woodenBG.png",
+        "position": {
+          "x": 180,
+          "y": 320
+        },
+        "size": 57
+      },
+      "defaultData": {
+        "description": "木頭背景"
+      }
+    }
+    
+  ]
+}
