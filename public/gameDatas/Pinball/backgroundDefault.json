@@ -3,9 +3,7 @@
     {
       "parent": "background",
       "name": "background",
-      "modifyTitle": "遊 戲 背 景",
       "img": {
-        "type": "png",
         "src": "/img/Games/Common/background.png",
         "position": {
           "x": 400,
@@ -20,9 +18,7 @@
     {
       "parent": "background",
       "name": "background",
-      "modifyTitle": "遊 戲 背 景",
       "img": {
-        "type": "png",
         "src": "/img/Games/Common/foodBg.png",
         "position": {
           "x": 401,
@@ -37,9 +33,7 @@
     {
       "parent": "background",
       "name": "background",
-      "modifyTitle": "遊 戲 背 景",
       "img": {
-        "type": "png",
         "src": "/img/Games/Common/foodBg1.png",
         "position": {
           "x": 402,
@@ -54,9 +48,7 @@
     {
       "parent": "background",
       "name": "background",
-      "modifyTitle": "遊 戲 背 景",
       "img": {
-        "type": "png",
         "src": "/img/Games/Common/newYearBg.png",
         "position": {
           "x": 403,
@@ -71,9 +63,7 @@
     {
       "parent": "background",
       "name": "background",
-      "modifyTitle": "遊 戲 背 景",
       "img": {
-        "type": "png",
         "src": "/img/Games/Common/newYearBg2.png",
         "position": {
           "x": 404,
@@ -88,9 +78,7 @@
     {
       "parent": "background",
       "name": "background",
-      "modifyTitle": "遊 戲 背 景",
       "img": {
-        "type": "png",
         "src": "/img/Games/PinballGame/woodenBG.png",
         "position": {
           "x": 180,
@@ -100,6 +88,20 @@
       },
       "defaultData": {
         "description": "木頭背景"
+      }
+    },{
+      "parent": "background",
+      "name": "background",
+      "img": {
+        "src": "/img/Games/CookingGame/kitchenBG.jpg",
+        "position": {
+          "x": 180,
+          "y": 320
+        },
+        "size": 57
+      },
+      "defaultData": {
+        "description": "廚房背景"
       }
     }
     

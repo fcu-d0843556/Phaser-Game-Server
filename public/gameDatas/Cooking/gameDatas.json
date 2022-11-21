@@ -1,6 +1,7 @@
 {
     "background": {
       "modifyTitle": "遊 戲 背 景",
+      "modifyDetail": "可以更改遊戲背景中的圖片",
       "name": "background",
       "items": [
         {
@@ -9,96 +10,139 @@
           "modifyTitle": "遊 戲 背 景",
           "img": {
             "type": "png",
-            "src": "/img/Games/Common/background.png",
+            "src": "/img/Games/CookingGame/kitchenBG.jpg",
             "position": {
               "x": 400,
               "y": 320
             },
-            "size": 100
+            "size": 105
           }
         }
       ]
     },
-    "foodCan": {
-        "modifyTitle": "製 作 桶",
-        "name": "foodCan",
+    "gameTutorialText": {
+      "modifyTitle": "遊 戲 說 明",
+      "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
+      "name": "gameTutorialText",
+      "items": [
+        {
+          "parent": "gameTutorialText",
+          "name": "gameTutorialText",
+          "modifyTitle": "遊 戲 說 明",
+          "text": {
+            "modifyTitle": "遊 戲 說 明",
+            "content": "在時間內煮好吃的食物\n交給餓肚子的顧客吧！\n\n點擊食物桶子後將\n生的食物拖移到烤爐\n\n等到煮好了後放到顧客的\n對話泡泡就可以加分喔！",
+            "inputType": "text"
+          } 
+        }
+      ]
+    },
+    "gameTimer": {
+      "modifyTitle": "遊 戲 時 間",
+      "modifyDetail": "設定整個遊戲的時間限制",
+      "name": "gameTimer",
+      "items": [
+        {
+          "parent": "gameTimer",
+          "name": "gameTimer",
+          "modifyTitle": "遊 戲 時 間",
+          "text": {
+            "modifyTitle": "時 間",
+            "content": 10,
+            "inputType": "number",
+            "unit": "秒",
+            "max": 1000,
+            "min": 1
+          }
+        }
+      ]
+    },
+    "food": {
+        "modifyTitle": "食 物 相 關",
+        "modifyDetail": "可以設定遊戲中上升物件的各種數值，例如：圖片、出現頻率、打破出現的文字等",
+        "name": "food",
         "items": [
           {
-            "parent": "foodCan",
+            "parent": "food",
             "name": "foodCan",
-            "modifyTitle": "製 作 桶",
+            "modifyTitle": "食 材 桶",
             "img": {
-              "type": "png",
               "src": "/img/Games/CookingGame/foodCan.png",
-              "position": {
-                  "x": 130,
-                  "y": 340
-              },
+              "size": 100
+            }
+          },{
+            "parent": "food",
+            "name": "rawFood",
+            "modifyTitle": "生 的 食 物",
+            "img": {
+              "src": "/img/Games/CookingGame/rawFood.png",
+              "size": 100
+            }
+          },{
+            "parent": "food",
+            "name": "halfFood",
+            "modifyTitle": "半 熟 的 食 物",
+            "img": {
+              "src": "/img/Games/CookingGame/halfFood.png",
+              "size": 100
+            }
+          },{
+            "parent": "food",
+            "name": "wellFood",
+            "modifyTitle": "煮 好 的 食 物",
+            "img": {
+              "src": "/img/Games/CookingGame/wellFood.png",
               "size": 100
             }
           }
         ]
     },
-    "rawFood": {
-      "modifyTitle": "生 的 食 物",
-      "name": "rawFood",
+    "customer": {
+      "modifyTitle": "顧 客 相 關",
+      "modifyDetail": "可以設定遊戲中上升物件的各種數值，例如：圖片、出現頻率、打破出現的文字等",
+      "name": "customer",
       "items": [
         {
-          "parent": "rawFood",
-          "name": "rawFood",
-          "modifyTitle": "生 的 食 物",
+          "parent": "customer",
+          "name": "happyCustomer",
+          "modifyTitle": "開 心 的 顧 客",
           "img": {
-            "type": "png",
-            "src": "/img/Games/CookingGame/rawFood.png",
-            "position": {
-                "x": 200,
-                "y": 350
-            },
+            "src": "/img/Games/CookingGame/maskManSmile.png",
+            "size": 100
+          }
+        },{
+          "parent": "customer",
+          "name": "neturalCustomer",
+          "modifyTitle": "顧 客 基 本 表 情",
+          "img": {
+            "src": "/img/Games/CookingGame/maskMan.png",
+            "size": 100
+          }
+        },{
+          "parent": "customer",
+          "name": "angryCustomer",
+          "modifyTitle": "生 氣 的 顧 客",
+          "img": {
+            "src": "/img/Games/CookingGame/maskManAngry.png",
             "size": 100
           }
         }
       ]
     },
-    "scoreText": {
-      "modifyTitle": "計 分 板",
-      "name": "scoreText",
+    "gameoverMessage": {
+      "modifyTitle": "遊 戲 結 束 評 價",
+      "modifyDetail": "根據玩家遊戲結束時獲得的分數，我們可以設置不同的文字",
+      "name": "gameoverMessage",
       "items": [
         {
-          "parent": "scoreText",
-          "name": "scoreText",
-          "modifyTitle": "計 分 板",
-          "text": {
-              "modifyTitle": "分 數",
-              "description": "當給予顧客食物時獲得的分數",
-              "content": "score",
-              "style": {
-                  "fontSize": 32,
-                  "fill": "#000"
-              },
-              "x": 16,
-              "y": 16
-          }
-        }
-      ]
-    },
-    "timeText": {
-      "modifyTitle": "時 間 文 字 方 塊",
-      "name": "timeText",
-      "items": [
-        {
-          "parent": "timeText",
-          "name": "timeText",
-          "modifyTitle": "時 間 文 字 方 塊",
-          "text": {
-            "modifyTitle": "時 間",
-            "description": "計時器的文字",
-            "content": "time",
-            "style": {
-              "fontSize": 32,
-              "fill": "#000"
-            },
-            "x": 16,
-            "y": 54
+          "parent": "gameoverMessage",
+          "name": "gameoverMessage",
+          "modifyTitle": "評 價 文 字",
+          "gameoverMessage": {
+            "modifyTitle": "遊 戲 結 束 評 價",
+            "description": "玩家遊戲結束時對分數進行不同的評價",
+            "score": [100,50,0],
+            "message": ["太厲害了!","很不錯!","要加油!"]
           }
         }
       ]
