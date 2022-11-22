@@ -33,7 +33,8 @@
             "modifyTitle": "遊 戲 說 明",
             "description": "遊戲開始前的遊戲說明內容",
             "content": "看準力道的上升，\n點擊射擊按鈕發射彈珠！\n\n看你可以拿幾分，\n分數高會有大獎哦！",
-            "inputType": "text"
+            "inputType": "text",
+            "size": 24
           } 
         }
       ]
