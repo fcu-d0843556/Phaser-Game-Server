@@ -31,8 +31,9 @@
           "modifyTitle": "遊 戲 說 明",
           "text": {
             "modifyTitle": "遊 戲 說 明",
-            "content": "在時間內煮好吃的食物\n交給餓肚子的顧客吧！\n\n點擊食物桶子後將\n生的食物拖移到烤爐\n\n等到煮好了後放到顧客的\n對話泡泡就可以加分喔！",
-            "inputType": "text"
+            "content": "在時間內煮好吃的食物\n交給餓肚子的顧客吧！\n\n點擊食物桶子後將\n生的食物拖移到烤爐\n\n等到煮好了後放到顧客的\n對話泡泡就可以加分喔！\n\n注意食物可會煮過頭哦！\n把他們拖到垃圾桶丟掉",
+            "inputType": "text",
+            "size": 22
           } 
         }
       ]
@@ -48,7 +49,7 @@
           "modifyTitle": "遊 戲 時 間",
           "text": {
             "modifyTitle": "時 間",
-            "content": 10,
+            "content": 30,
             "inputType": "number",
             "unit": "秒",
             "max": 1000,
@@ -59,7 +60,7 @@
     },
     "food": {
         "modifyTitle": "食 物 相 關",
-        "modifyDetail": "可以設定遊戲中上升物件的各種數值，例如：圖片、出現頻率、打破出現的文字等",
+        "modifyDetail": "設定遊戲中的生成食物的桶子和不同煮好程度的食物，例如圖片、食物得分等",
         "name": "food",
         "items": [
           {
@@ -68,7 +69,11 @@
             "modifyTitle": "食 材 桶",
             "img": {
               "src": "/img/Games/CookingGame/foodCan.png",
-              "size": 100
+              "size": 100,
+              "position": {
+                "x": 130,
+                "y": 340
+              }
             }
           },{
             "parent": "food",
@@ -77,14 +82,22 @@
             "img": {
               "src": "/img/Games/CookingGame/rawFood.png",
               "size": 100
+            },
+            "score": {
+              "modifyTitle": "食 物 得 分",
+              "content": -10,
+              "max": 1000,
+              "min": -1000
             }
           },{
             "parent": "food",
             "name": "halfFood",
             "modifyTitle": "半 熟 的 食 物",
-            "img": {
-              "src": "/img/Games/CookingGame/halfFood.png",
-              "size": 100
+            "score": {
+              "modifyTitle": "食 物 得 分",
+              "content": 10,
+              "max": 1000,
+              "min": -1000
             }
           },{
             "parent": "food",
@@ -93,6 +106,22 @@
             "img": {
               "src": "/img/Games/CookingGame/wellFood.png",
               "size": 100
+            },
+            "score": {
+              "modifyTitle": "食 物 得 分",
+              "content": 30,
+              "max": 1000,
+              "min": -1000
+            }
+          },{
+            "parent": "food",
+            "name": "overcookedFood",
+            "modifyTitle": "煮 過 頭 的 食 物",
+            "score": {
+              "modifyTitle": "食 物 得 分",
+              "content": -25,
+              "max": 1000,
+              "min": -1000
             }
           }
         ]
@@ -108,7 +137,11 @@
           "modifyTitle": "開 心 的 顧 客",
           "img": {
             "src": "/img/Games/CookingGame/maskManSmile.png",
-            "size": 100
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
           }
         },{
           "parent": "customer",
@@ -116,7 +149,11 @@
           "modifyTitle": "顧 客 基 本 表 情",
           "img": {
             "src": "/img/Games/CookingGame/maskMan.png",
-            "size": 100
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
           }
         },{
           "parent": "customer",
@@ -124,7 +161,11 @@
           "modifyTitle": "生 氣 的 顧 客",
           "img": {
             "src": "/img/Games/CookingGame/maskManAngry.png",
-            "size": 100
+            "position": {
+              "x": 250,
+              "y": 250
+            },
+            "size": 80
           }
         }
       ]

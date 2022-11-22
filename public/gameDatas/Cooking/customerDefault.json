@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "img": {
+        "src": "/img/Games/CookingGame/maskMan.png"
+      },
+      "defaultData": {
+        "description": "男顧客"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/maskManAngry.png"
+      },
+      "defaultData": {
+        "description": "生氣的男顧客"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/maskManSmile.png"
+      },
+      "defaultData": {
+        "description": "開心的男顧客"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/maskWoman.png"
+      },
+      "defaultData": {
+        "description": "女顧客"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/maskWomanAngry.png"
+      },
+      "defaultData": {
+        "description": "生氣的女顧客"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/maskWomanSmile.png"
+      },
+      "defaultData": {
+        "description": "開心的女顧客"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/womanstar1.png"
+      },
+      "defaultData": {
+        "description": "給你一星.."
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/womanstar3.png"
+      },
+      "defaultData": {
+        "description": "給你三星"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/womanstar5.png"
+      },
+      "defaultData": {
+        "description": "給你五星！"
+      }
+    }
+  ]
+}

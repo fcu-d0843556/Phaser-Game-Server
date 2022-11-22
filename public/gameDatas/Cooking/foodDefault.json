@@ -1,29 +1,46 @@
 {
   "items": [
     {
-      "parent": "food",
-      "name": "foodCan",
-      "modifyTitle": "食 材 桶",
       "img": {
-        "type": "png",
-        "src": "/img/Games/CatchFruitGame/star.png",
-        "size": 100
+        "src": "/img/Games/CookingGame/riceCan.png"
       },
       "defaultData": {
-        "description": "星星"
+        "description": "新米"
       }
-    },
-    {
-      "parent": "food",
-      "name": "rawFood",
-      "modifyTitle": "生 的 食 物",
+    },{
       "img": {
-        "type": "png",
-        "src": "/img/Games/CookingGame/rawFood.png",
-        "size": 150
+        "src": "/img/Games/CookingGame/foodCan.png"
       },
       "defaultData": {
-        "description": "生 的 食 物"
+        "description": "食物桶"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/rawFood.png"
+      },
+      "defaultData": {
+        "description": "生的食物"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/wellFood.png"
+      },
+      "defaultData": {
+        "description": "煮好的食物"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/rice.png"
+      },
+      "defaultData": {
+        "description": "米飯"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/firedRice.png"
+      },
+      "defaultData": {
+        "description": "炒飯"
       }
     }
   ]
