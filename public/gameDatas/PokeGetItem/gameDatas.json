@@ -1,6 +1,7 @@
 {
     "background": {
       "modifyTitle": "遊 戲 背 景",
+      "modifyDetail": "可以更改遊戲背景中的圖片",
       "name": "background",
       "items": [
         {
@@ -8,7 +9,6 @@
           "name": "background",
           "modifyTitle": "遊 戲 背 景",
           "img": {
-            "type": "png",
             "src": "/img/Games/Common/background.png",
             "position": {
               "x": 400,
@@ -19,165 +19,234 @@
         }
       ]
     },
+    "gameTutorialText": {
+      "modifyTitle": "遊 戲 說 明",
+      "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
+      "name": "gameTutorialText",
+      "items": [
+        {
+          "parent": "gameTutorialText",
+          "name": "gameTutorialText",
+          "modifyTitle": "遊 戲 說 明",
+          "text": {
+            "modifyTitle": "遊 戲 說 明",
+            "description": "遊戲開始前的遊戲說明內容",
+            "content": "在時間內打到越多的氣球!",
+            "inputType": "text",
+            "size": 24
+          } 
+        }
+      ]
+    },
+    "boxSkin": {
+      "modifyTitle": "戳 戳 樂 的 圖 案",
+      "name": "boxSkin",
+      "items": [
+        {
+          "parent": "boxSkin",
+          "name": "upperLeftSkin",
+          "modifyTitle": "左 上 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/balloons.png",
+            "size": 100
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "upperMiddleSkin",
+          "modifyTitle": "中 上 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/moonYellow.png",
+            "size": 100
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "upperRightSkin",
+          "modifyTitle": "右 上 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/heartRed.png",
+            "size": 100
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "middleLeftSkin",
+          "modifyTitle": "左 中 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/heartYellow.png",
+            "size": 100
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "centerSkin",
+          "modifyTitle": "正 中 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/heartAqua.png",
+            "size": 100
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "middleRightSkin",
+          "modifyTitle": "右 中 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/heartOrange.png",
+            "size": 100
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "lowerLeftSkin",
+          "modifyTitle": "左 下 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/heartPink.png",
+            "size": 100
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "lowerMiddleSkin",
+          "modifyTitle": "中 下 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/starYellow.png",
+            "size": 100
+          }
+        },{
+          "parent": "boxSkin",
+          "name": "lowerRightSkin",
+          "modifyTitle": "右 下 方 塊",
+          "img": {
+            "src": "/img/Games/PokeGetItemGame/smile.png",
+            "size": 100
+          }
+        }
+      ]
+    },
     "boxObject": {
-      "modifyTitle": "戳 戳 樂 裡 面 的 物 件",
+      "modifyTitle": "戳 戳 樂 裡 面 的 獎 品",
       "name": "boxObject",
       "items": [
         {
           "parent": "boxObject",
-          "name": "upperLeft",
+          "name": "upperLeftObject",
           "modifyTitle": "左 上 方 塊",
           "img": {
             "src": "/img/Games/PokeGetItemGame/balloons.png",
-            "position": {
-              "x": 80,
-              "y": 300
-            },
             "size": 100
           },
           "text": {
-            "modifyTitle": "獲 得 道 具 文 字",
-            "description": "得到戳出來的物件時會顯示出的文字",
+            "modifyTitle": "獲 得 獎 品 文 字",
             "content": "你獲得了balloons！"
           }
         },{
           "parent": "boxObject",
-          "name": "upperMiddle",
+          "name": "upperMiddleObject",
           "modifyTitle": "中 上 方 塊",
           "img": {
             "src": "/img/Games/PokeGetItemGame/moonYellow.png",
-            "position": {
-              "x": 180,
-              "y": 300
-            },
             "size": 100
           },
           "text": {
-            "modifyTitle": "獲 得 道 具 文 字",
-            "description": "得到戳出來的物件時會顯示出的文字",
+            "modifyTitle": "獲 得 獎 品 文 字",
             "content": "你獲得了moonYellow！"
           }
         },{
           "parent": "boxObject",
-          "name": "upperRight",
+          "name": "upperRightObject",
           "modifyTitle": "右 上 方 塊",
           "img": {
             "src": "/img/Games/PokeGetItemGame/heartRed.png",
-            "position": {
-              "x": 280,
-              "y": 300
-            },
             "size": 100
           },
           "text": {
-            "modifyTitle": "獲 得 道 具 文 字",
-            "description": "得到戳出來的物件時會顯示出的文字",
+            "modifyTitle": "獲 得 獎 品 文 字",
             "content": "你獲得了heartRed！"
           }
         },{
           "parent": "boxObject",
-          "name": "middleLeft",
+          "name": "middleLeftObject",
           "modifyTitle": "左 中 方 塊",
           "img": {
             "src": "/img/Games/PokeGetItemGame/heartYellow.png",
-            "position": {
-              "x": 80,
-              "y": 400
-            },
             "size": 100
           },
           "text": {
-            "modifyTitle": "獲 得 道 具 文 字",
-            "description": "得到戳出來的物件時會顯示出的文字",
+            "modifyTitle": "獲 得 獎 品 文 字",
             "content": "你獲得了heartYellow！"
           }
         },{
           "parent": "boxObject",
-          "name": "center",
+          "name": "centerObject",
           "modifyTitle": "正 中 方 塊",
           "img": {
             "src": "/img/Games/PokeGetItemGame/heartAqua.png",
-            "position": {
-              "x": 180,
-              "y": 400
-            },
             "size": 100
           },
           "text": {
-            "modifyTitle": "獲 得 道 具 文 字",
-            "description": "得到戳出來的物件時會顯示出的文字",
+            "modifyTitle": "獲 得 獎 品 文 字",
             "content": "你獲得了heartAqua！"
           }
         },{
           "parent": "boxObject",
-          "name": "middleRight",
+          "name": "middleRightObject",
           "modifyTitle": "右 中 方 塊",
           "img": {
             "src": "/img/Games/PokeGetItemGame/heartOrange.png",
-            "position": {
-              "x": 280,
-              "y": 400
-            },
             "size": 100
           },
           "text": {
-            "modifyTitle": "獲 得 道 具 文 字",
-            "description": "得到戳出來的物件時會顯示出的文字",
+            "modifyTitle": "獲 得 獎 品 文 字",
             "content": "你獲得了heartOrange！"
           }
         },{
           "parent": "boxObject",
-          "name": "lowerLeft",
+          "name": "lowerLeftObject",
           "modifyTitle": "左 下 方 塊",
           "img": {
             "src": "/img/Games/PokeGetItemGame/heartPink.png",
-            "position": {
-              "x": 80,
-              "y": 500
-            },
             "size": 100
           },
           "text": {
-            "modifyTitle": "獲 得 道 具 文 字",
-            "description": "得到戳出來的物件時會顯示出的文字",
+            "modifyTitle": "獲 得 獎 品 文 字",
             "content": "你獲得了heartPink！"
           }
         },{
           "parent": "boxObject",
-          "name": "lowerMiddle",
+          "name": "lowerMiddleObject",
           "modifyTitle": "中 下 方 塊",
           "img": {
             "src": "/img/Games/PokeGetItemGame/starYellow.png",
-            "position": {
-              "x": 180,
-              "y": 500
-            },
             "size": 100
           },
           "text": {
-            "modifyTitle": "獲 得 道 具 文 字",
-            "description": "得到戳出來的物件時會顯示出的文字",
+            "modifyTitle": "獲 得 獎 品 文 字",
             "content": "你獲得了starYellow！"
           }
         },{
           "parent": "boxObject",
-          "name": "lowerRight",
+          "name": "lowerRightObject",
           "modifyTitle": "右 下 方 塊",
           "img": {
             "src": "/img/Games/PokeGetItemGame/smile.png",
-            "position": {
-              "x": 280,
-              "y": 500
-            },
             "size": 100
           },
           "text": {
-            "modifyTitle": "獲 得 道 具 文 字",
-            "description": "得到戳出來的物件時會顯示出的文字",
+            "modifyTitle": "獲 得 獎 品 文 字",
             "content": "你獲得了smile！"
           }
         }
-        
+      ]
+    },
+    "gameRule": {
+      "modifyTitle": "遊 戲 規 則",
+      "modifyDetail": "一些規則上的設定，例如力氣條的速度，要怎麼射擊彈珠等",
+      "name": "gameRule",
+      "items": [
+        {
+          "parent": "gameRule",
+          "name": "gameRule",
+          "modifyTitle": "遊 戲 規 則",
+          "priority": {
+            "modifyTitle": "力 道 增 加 速 度",
+            "content": [ "非常慢", "慢", "中等", "快", "非常快"],
+            "selected": 3
+          }
+        }
       ]
     }
   }

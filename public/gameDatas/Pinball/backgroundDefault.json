@@ -1,107 +1,72 @@
 {
   "items": [
     {
-      "parent": "background",
-      "name": "background",
       "img": {
-        "src": "/img/Games/Common/background.png",
-        "position": {
-          "x": 400,
-          "y": 320
-        },
-        "size": 100
+        "src": "/img/Games/Common/background.png"
       },
       "defaultData": {
         "description": "藍天背景"
       }
     },
     {
-      "parent": "background",
-      "name": "background",
       "img": {
-        "src": "/img/Games/Common/foodBg.png",
-        "position": {
-          "x": 401,
-          "y": 320
-        },
-        "size": 101
+        "src": "/img/Games/Common/foodBg.png"
       },
       "defaultData": {
         "description": "紫色漸層背景"
       }
     },
     {
-      "parent": "background",
-      "name": "background",
       "img": {
-        "src": "/img/Games/Common/foodBg1.png",
-        "position": {
-          "x": 402,
-          "y": 320
-        },
-        "size": 102
+        "src": "/img/Games/Common/foodBg1.png"
       },
       "defaultData": {
         "description": "食物背景"
       }
     },
     {
-      "parent": "background",
-      "name": "background",
       "img": {
-        "src": "/img/Games/Common/newYearBg.png",
-        "position": {
-          "x": 403,
-          "y": 320
-        },
-        "size": 103
+        "src": "/img/Games/Common/newYearBg.png"
       },
       "defaultData": {
         "description": "橙色漸層背景"
       }
     },
     {
-      "parent": "background",
-      "name": "background",
       "img": {
-        "src": "/img/Games/Common/newYearBg2.png",
-        "position": {
-          "x": 404,
-          "y": 320
-        },
-        "size": 104
+        "src": "/img/Games/Common/newYearBg2.png"
       },
       "defaultData": {
         "description": "黃色漸層背景"
       }
     },
     {
-      "parent": "background",
-      "name": "background",
       "img": {
-        "src": "/img/Games/PinballGame/woodenBG.png",
-        "position": {
-          "x": 180,
-          "y": 320
-        },
-        "size": 57
+        "src": "/img/Games/PinballGame/woodenBG.png"
       },
       "defaultData": {
         "description": "木頭背景"
       }
     },{
-      "parent": "background",
-      "name": "background",
       "img": {
-        "src": "/img/Games/CookingGame/kitchenBG.jpg",
-        "position": {
-          "x": 180,
-          "y": 320
-        },
-        "size": 57
+        "src": "/img/Games/CookingGame/kitchenBG.jpg"
       },
       "defaultData": {
         "description": "廚房背景"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/blueSky.png"
+      },
+      "defaultData": {
+        "description": "城堡背景"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/night_sky.jpg"
+      },
+      "defaultData": {
+        "description": "夜晚星空"
       }
     }
     

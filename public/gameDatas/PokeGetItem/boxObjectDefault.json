@@ -1,0 +1,166 @@
+{
+    "items": [
+      {
+        "img": {
+          "src": "/img/Games/CookingGame/riceCan.png"
+        },
+        "defaultData": {
+          "description": "新米"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/banana.png"
+        },
+        "defaultData": {
+          "description": "香蕉"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/grape.png"
+        },
+        "defaultData": {
+          "description": "葡萄"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/apple.png"
+        },
+        "defaultData": {
+          "description": "蘋果"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/vegetableGreen.png"
+        },
+        "defaultData": {
+          "description": "青椒"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/bentou.png"
+        },
+        "defaultData": {
+          "description": "便當"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/curry.png"
+        },
+        "defaultData": {
+          "description": "咖喱飯"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/drink_milk.png"
+        },
+        "defaultData": {
+          "description": "草莓奶昔"
+        }
+      } ,{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/egg_bucket.png"
+        },
+        "defaultData": {
+          "description": "一袋雞蛋"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/jiaozi.png"
+        },
+        "defaultData": {
+          "description": "餃子"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/paomian.png"
+        },
+        "defaultData": {
+          "description": "泡麵"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/sushi.png"
+        },
+        "defaultData": {
+          "description": "壽司"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/ramen.png"
+        },
+        "defaultData": {
+          "description": "拉麵"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/teaCan.png"
+        },
+        "defaultData": {
+          "description": "綠茶"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/coffee_cup.png"
+        },
+        "defaultData": {
+          "description": "咖啡"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/bubbletea.png"
+        },
+        "defaultData": {
+          "description": "珍珠奶茶"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/milk.png"
+        },
+        "defaultData": {
+          "description": "牛奶"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/cola.png"
+        },
+        "defaultData": {
+          "description": "可樂"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/coffee.png"
+        },
+        "defaultData": {
+          "description": "瓶裝咖啡"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/tea.png"
+        },
+        "defaultData": {
+          "description": "奶茶"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/robot.png"
+        },
+        "defaultData": {
+          "description": "機器人"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/lipstick.png"
+        },
+        "defaultData": {
+          "description": "口紅"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/pizza.png"
+        },
+        "defaultData": {
+          "description": "披薩"
+        }
+      }
+    ]
+  }

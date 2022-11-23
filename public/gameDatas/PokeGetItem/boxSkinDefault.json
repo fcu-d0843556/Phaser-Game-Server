@@ -1,0 +1,103 @@
+{
+    "items": [
+      {
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/bear_face.png"
+        },
+        "defaultData": {
+          "description": "小熊"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/pig_face.png"
+        },
+        "defaultData": {
+          "description": "小豬"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/dog_face.png"
+        },
+        "defaultData": {
+          "description": "柴犬"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/cat_face.png"
+        },
+        "defaultData": {
+          "description": "小貓"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/fox_face.png"
+        },
+        "defaultData": {
+          "description": "狐狸"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/penguin_face.png"
+        },
+        "defaultData": {
+          "description": "企鵝"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/cow_face.png"
+        },
+        "defaultData": {
+          "description": "奶牛"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/cookie_face.png"
+        },
+        "defaultData": {
+          "description": "薑餅人"
+        }
+      } ,{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/snowman_face.png"
+        },
+        "defaultData": {
+          "description": "雪人"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/deer_face.png"
+        },
+        "defaultData": {
+          "description": "麋鹿"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/santa_face.png"
+        },
+        "defaultData": {
+          "description": "聖誕老人"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/raccoon_face.png"
+        },
+        "defaultData": {
+          "description": "浣熊"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/duck_face.png"
+        },
+        "defaultData": {
+          "description": "鴨子"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/smallBoxStar.png"
+        },
+        "defaultData": {
+          "description": "星星方塊"
+        }
+      }
+    ]
+  }

@@ -9,7 +9,6 @@
           "name": "background",
           "modifyTitle": "遊 戲 背 景",
           "img": {
-            "type": "png",
             "src": "/img/Games/Common/background.png",
             "position": {
               "x": 400,
