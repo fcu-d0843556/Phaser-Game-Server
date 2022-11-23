@@ -30,7 +30,7 @@
           "modifyTitle": "訊 息",
           "text": {
             "modifyTitle": "訊 息",
-            "content": "戳戳看來決定要吃什麼!",
+            "content": "戳戳看來看看吃什麼比較好！",
             "inputType": "text",
             "size": 24
           } 
@@ -46,72 +46,72 @@
           "name": "upperLeftSkin",
           "modifyTitle": "左 上 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/balloons.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/bear_face.png",
+            "size": 20
           }
         },{
           "parent": "boxSkin",
           "name": "upperMiddleSkin",
           "modifyTitle": "中 上 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/moonYellow.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/pig_face.png",
+            "size": 20
           }
         },{
           "parent": "boxSkin",
           "name": "upperRightSkin",
           "modifyTitle": "右 上 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/heartRed.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/dog_face.png",
+            "size": 20
           }
         },{
           "parent": "boxSkin",
           "name": "middleLeftSkin",
           "modifyTitle": "左 中 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/heartYellow.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/cat_face.png",
+            "size": 20
           }
         },{
           "parent": "boxSkin",
           "name": "centerSkin",
           "modifyTitle": "正 中 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/heartAqua.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/fox_face.png",
+            "size": 20
           }
         },{
           "parent": "boxSkin",
           "name": "middleRightSkin",
           "modifyTitle": "右 中 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/heartOrange.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/penguin_face.png",
+            "size": 22
           }
         },{
           "parent": "boxSkin",
           "name": "lowerLeftSkin",
           "modifyTitle": "左 下 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/heartPink.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/cookie_face.png",
+            "size": 50
           }
         },{
           "parent": "boxSkin",
           "name": "lowerMiddleSkin",
           "modifyTitle": "中 下 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/starYellow.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/deer_face.png",
+            "size": 50
           }
         },{
           "parent": "boxSkin",
           "name": "lowerRightSkin",
           "modifyTitle": "右 下 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/smile.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/raccoon_face.png",
+            "size": 40
           }
         }
       ]
@@ -125,108 +125,108 @@
           "name": "upperLeftObject",
           "modifyTitle": "左 上 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/balloons.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/ramen.png",
+            "size": 30
           },
           "text": {
             "modifyTitle": "獲 得 獎 品 文 字",
-            "content": "你獲得了balloons！"
+            "content": "來吃拉麵！"
           }
         },{
           "parent": "boxObject",
           "name": "upperMiddleObject",
           "modifyTitle": "中 上 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/moonYellow.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/coffee_cup.png",
+            "size": 30
           },
           "text": {
             "modifyTitle": "獲 得 獎 品 文 字",
-            "content": "你獲得了moonYellow！"
+            "content": "來喝一杯咖啡吧！"
           }
         },{
           "parent": "boxObject",
           "name": "upperRightObject",
           "modifyTitle": "右 上 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/heartRed.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/pizza.png",
+            "size": 30
           },
           "text": {
             "modifyTitle": "獲 得 獎 品 文 字",
-            "content": "你獲得了heartRed！"
+            "content": "吃披薩吧！"
           }
         },{
           "parent": "boxObject",
           "name": "middleLeftObject",
           "modifyTitle": "左 中 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/heartYellow.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/bubbletea.png",
+            "size": 40
           },
           "text": {
             "modifyTitle": "獲 得 獎 品 文 字",
-            "content": "你獲得了heartYellow！"
+            "content": "來喝珍珠奶茶"
           }
         },{
           "parent": "boxObject",
           "name": "centerObject",
           "modifyTitle": "正 中 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/heartAqua.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/drink_milk.png",
+            "size": 30
           },
           "text": {
             "modifyTitle": "獲 得 獎 品 文 字",
-            "content": "你獲得了heartAqua！"
+            "content": "來喝草莓奶昔！"
           }
         },{
           "parent": "boxObject",
           "name": "middleRightObject",
           "modifyTitle": "右 中 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/heartOrange.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/bentou.png",
+            "size": 30
           },
           "text": {
             "modifyTitle": "獲 得 獎 品 文 字",
-            "content": "你獲得了heartOrange！"
+            "content": "來吃便當！"
           }
         },{
           "parent": "boxObject",
           "name": "lowerLeftObject",
           "modifyTitle": "左 下 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/heartPink.png",
-            "size": 100
+            "src": "/img/Games/PokeGetItemGame/curry.png",
+            "size": 30
           },
           "text": {
             "modifyTitle": "獲 得 獎 品 文 字",
-            "content": "你獲得了heartPink！"
+            "content": "吃咖喱飯好了"
           }
         },{
           "parent": "boxObject",
           "name": "lowerMiddleObject",
           "modifyTitle": "中 下 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/starYellow.png",
-            "size": 100
+            "src": "/img/Games/CatchFruitGame/apple.png",
+            "size": 25
           },
           "text": {
             "modifyTitle": "獲 得 獎 品 文 字",
-            "content": "你獲得了starYellow！"
+            "content": "吃個蘋果吧"
           }
         },{
           "parent": "boxObject",
           "name": "lowerRightObject",
           "modifyTitle": "右 下 方 塊",
           "img": {
-            "src": "/img/Games/PokeGetItemGame/smile.png",
-            "size": 100
+            "src": "/img/Games/CatchFruitGame/banana.png",
+            "size": 25
           },
           "text": {
             "modifyTitle": "獲 得 獎 品 文 字",
-            "content": "你獲得了smile！"
+            "content": "吃香蕉吧！"
           }
         }
       ]
@@ -238,12 +238,15 @@
       "items": [
         {
           "parent": "gameRule",
-          "name": "gameRule",
-          "modifyTitle": "遊 戲 規 則",
-          "priority": {
-            "modifyTitle": "力 道 增 加 速 度",
-            "content": [ "非常慢", "慢", "中等", "快", "非常快"],
-            "selected": 3
+          "name": "hitTimes",
+          "modifyTitle": "玩家可以戳的次數",
+          "text": {
+            "modifyTitle": "次 數",
+            "content": 3,
+            "inputType": "number",
+            "unit": "次",
+            "max": 9,
+            "min": 1
           }
         }
       ]
