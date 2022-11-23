@@ -19,19 +19,18 @@
         }
       ]
     },
-    "gameTutorialText": {
-      "modifyTitle": "遊 戲 說 明",
-      "modifyDetail": "可以修改在遊戲開始前的遊戲說明，讓玩家在遊玩前看到",
-      "name": "gameTutorialText",
+    "gameMessage": {
+      "modifyTitle": "遊 戲 裡 的 訊 息",
+      "modifyDetail": "這個訊息顯示在戳戳樂的上方，可以告訴玩家這個戳戳樂遊戲的目的等訊息",
+      "name": "gameMessage",
       "items": [
         {
-          "parent": "gameTutorialText",
-          "name": "gameTutorialText",
-          "modifyTitle": "遊 戲 說 明",
+          "parent": "gameMessage",
+          "name": "gameMessage",
+          "modifyTitle": "訊 息",
           "text": {
-            "modifyTitle": "遊 戲 說 明",
-            "description": "遊戲開始前的遊戲說明內容",
-            "content": "在時間內打到越多的氣球!",
+            "modifyTitle": "訊 息",
+            "content": "戳戳看來決定要吃什麼!",
             "inputType": "text",
             "size": 24
           } 
