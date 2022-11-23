@@ -39,6 +39,7 @@
     },
     "boxSkin": {
       "modifyTitle": "戳 戳 樂 的 圖 案",
+      "modifyDetail": "可以改變戳戳樂盒子上的圖案",
       "name": "boxSkin",
       "items": [
         {
@@ -118,6 +119,7 @@
     },
     "boxObject": {
       "modifyTitle": "戳 戳 樂 裡 面 的 獎 品",
+      "modifyDetail": "可以改變戳下去獲得的物品，圖片、獲得的訊息都可以更改",
       "name": "boxObject",
       "items": [
         {
@@ -233,7 +235,7 @@
     },
     "gameRule": {
       "modifyTitle": "遊 戲 規 則",
-      "modifyDetail": "一些規則上的設定，例如力氣條的速度，要怎麼射擊彈珠等",
+      "modifyDetail": "一些規則上的設定，例如玩家可以戳幾次，每次物品的位置會不會隨機等",
       "name": "gameRule",
       "items": [
         {
@@ -242,12 +244,42 @@
           "modifyTitle": "玩家可以戳的次數",
           "text": {
             "modifyTitle": "次 數",
-            "content": 3,
+            "content": 2,
             "inputType": "number",
             "unit": "次",
-            "max": 9,
+            "max": 3,
             "min": 1
           }
+        },{
+          "parent": "gameRule",
+          "name": "isRandom",
+          "modifyTitle": "獲得的物件位置隨機",
+          "text": {
+            "modifyTitle": "次 數",
+            "content": 2,
+            "inputType": "number",
+            "unit": "次",
+            "max": 3,
+            "min": 1
+          }
+        }
+      ]
+    },
+    "gameoverMessage": {
+      "modifyTitle": "遊 戲 結 束 訊 息",
+      "modifyDetail": "根據玩家遊戲結束時獲得的東西，我們可以設置不同的訊息",
+      "name": "gameoverMessage",
+      "items": [
+        {
+          "parent": "gameoverMessage",
+          "name": "gameoverMessage",
+          "modifyTitle": "遊 戲 結 束 訊 息",
+          "text": {
+            "modifyTitle": "結 束 訊 息",
+            "content": "YA！\n決定要吃這些了\n\n\n決定吃什麼真簡單！",
+            "inputType": "text",
+            "size": 20
+          } 
         }
       ]
     }
