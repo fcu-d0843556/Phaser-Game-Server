@@ -253,15 +253,13 @@
         },{
           "parent": "gameRule",
           "name": "isRandom",
-          "modifyTitle": "獲得的物件位置隨機",
-          "text": {
-            "modifyTitle": "次 數",
-            "content": 2,
-            "inputType": "number",
-            "unit": "次",
-            "max": 3,
-            "min": 1
-          }
+          "modifyTitle": "獲得的物件位置是否隨機",
+          "selection": {
+            "modifyTitle": "選 擇 遊 戲 類 型",
+            "description": "點擊圓點決定要使用哪一個",
+            "selected": "stick",
+            "content": [{"id": "random","text": "讓物件隨機"},{"id": "stick","text": "讓物件固定"}]
+        }
         }
       ]
     },
