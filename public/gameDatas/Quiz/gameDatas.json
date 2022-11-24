@@ -28,12 +28,32 @@
         {
           "parent": "questions",
           "name": "question1",
-          "modifyTitle": "問 題 1",
+          "modifyTitle": "問 題",
           "question": {
               "modifyTitle": "問 題 編 輯",
               "description": "點擊圓點決定正確的選項",
-              "question": "問題 1 :\n\n我最喜歡吃的水果是 ?",
-              "content": [{"text": "蘋果","answer": "X"},{"text": "香蕉","answer": "O"},{"text": "葡萄","answer": "X"},{"text": "芭樂","answer": "X"}]
+              "question": "我最喜歡吃的水果是 ?",
+              "content": [{"id": 1,"text": "蘋果","answer": "X"},{"id": 2,"text": "香蕉","answer": "O"},{"id": 3,"text": "葡萄","answer": "X"},{"id": 4,"text": "芭樂","answer": "X"}]
+          }
+        },{
+          "parent": "questions",
+          "name": "question2",
+          "modifyTitle": "問 題",
+          "question": {
+              "modifyTitle": "問 題 編 輯",
+              "description": "點擊圓點決定正確的選項",
+              "question": "我最喜歡吃的水果是 ?",
+              "content": [{"id": 1,"text": "蘋果","answer": "X"},{"id": 2,"text": "香蕉","answer": "O"},{"id": 3,"text": "葡萄","answer": "X"},{"id": 4,"text": "芭樂","answer": "X"}]
+          }
+        },{
+          "parent": "questions",
+          "name": "question3",
+          "modifyTitle": "問 題",
+          "question": {
+              "modifyTitle": "問 題 編 輯",
+              "description": "點擊圓點決定正確的選項",
+              "question": "我最喜歡吃的水果是 ?",
+              "content": [{"id": 1,"text": "蘋果","answer": "X"},{"id": 2,"text": "香蕉","answer": "O"},{"id": 3,"text": "葡萄","answer": "X"},{"id": 4,"text": "芭樂","answer": "X"}]
           }
         }
       ]
