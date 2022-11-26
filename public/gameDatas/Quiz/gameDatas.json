@@ -30,7 +30,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我最喜歡吃的水果是 ?",
-            "content": [{"id": 1,"text": "蘋果","answer": "X"},{"id": 2,"text": "香蕉","answer": "O"},{"id": 3,"text": "葡萄","answer": "X"},{"id": 4,"text": "芭樂","answer": "X"}]
+            "content": [{"id": 1,"text": "蘋果","answer": "X"},{"id": 2,"text": "香蕉","answer": "O"},{"id": 3,"text": "葡萄","answer": "X"},{"id": 4,"text": "芭樂","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -46,7 +47,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我最喜歡電影類型是 ?",
-            "content": [{"id": 1,"text": "浪漫愛情","answer": "X"},{"id": 2,"text": "搞笑喜劇","answer": "O"},{"id": 3,"text": "恐怖","answer": "X"},{"id": 4,"text": "動作","answer": "X"}]
+            "content": [{"id": 1,"text": "浪漫愛情","answer": "X"},{"id": 2,"text": "搞笑喜劇","answer": "O"},{"id": 3,"text": "恐怖","answer": "X"},{"id": 4,"text": "動作","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -62,7 +64,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我最喜歡的顏色是 ?",
-            "content": [{"id": 1,"text": "紅色","answer": "X"},{"id": 2,"text": "黃色","answer": "O"},{"id": 3,"text": "粉紅色","answer": "X"},{"id": 4,"text": "綠色","answer": "X"}]
+            "content": [{"id": 1,"text": "紅色","answer": "X"},{"id": 2,"text": "黃色","answer": "O"},{"id": 3,"text": "粉紅色","answer": "X"},{"id": 4,"text": "綠色","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -78,7 +81,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我最喜歡的動物是 ?",
-            "content": [{"id": 1,"text": "貓","answer": "X"},{"id": 2,"text": "狗","answer": "O"},{"id": 3,"text": "鸚鵡","answer": "X"},{"id": 4,"text": "蜥蜴","answer": "X"}]
+            "content": [{"id": 1,"text": "貓","answer": "X"},{"id": 2,"text": "狗","answer": "O"},{"id": 3,"text": "鸚鵡","answer": "X"},{"id": 4,"text": "蜥蜴","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -94,7 +98,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "說一句我想聽到的話 ！",
-            "content": [{"id": 1,"text": "我愛你！","answer": "O"},{"id": 2,"text": "早點休息！","answer": "X"},{"id": 3,"text": "去吃大餐！","answer": "X"},{"id": 4,"text": "晚安！","answer": "X"}]
+            "content": [{"id": 1,"text": "我愛你！","answer": "O"},{"id": 2,"text": "早點休息！","answer": "X"},{"id": 3,"text": "去吃大餐！","answer": "X"},{"id": 4,"text": "晚安！","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -110,7 +115,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我最想結婚的年齡是 ?",
-            "content": [{"id": 1,"text": "25 - 30","answer": "O"},{"id": 2,"text": "30 - 35","answer": "X"},{"id": 3,"text": "35 - 40","answer": "X"},{"id": 4,"text": "20 - 25","answer": "X"}]
+            "content": [{"id": 1,"text": "25 - 30","answer": "O"},{"id": 2,"text": "30 - 35","answer": "X"},{"id": 3,"text": "35 - 40","answer": "X"},{"id": 4,"text": "20 - 25","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -126,7 +132,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我最喜歡你身上的哪一點 ?",
-            "content": [{"id": 1,"text": "性格","answer": "O"},{"id": 2,"text": "外表","answer": "X"},{"id": 3,"text": "事業","answer": "X"},{"id": 4,"text": "都喜歡！","answer": "X"}]
+            "content": [{"id": 1,"text": "性格","answer": "O"},{"id": 2,"text": "外表","answer": "X"},{"id": 3,"text": "事業","answer": "X"},{"id": 4,"text": "都喜歡！","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -142,7 +149,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我最喜歡怎麼樣的約會活動 ?",
-            "content": [{"id": 1,"text": "看電影","answer": "O"},{"id": 2,"text": "吃大餐","answer": "X"},{"id": 3,"text": "在家裡度過一天","answer": "X"},{"id": 4,"text": "遊樂園","answer": "X"}]
+            "content": [{"id": 1,"text": "看電影","answer": "O"},{"id": 2,"text": "吃大餐","answer": "X"},{"id": 3,"text": "在家裡度過一天","answer": "X"},{"id": 4,"text": "遊樂園","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -158,7 +166,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "未來我想和你去哪個國家旅行 ?",
-            "content": [{"id": 1,"text": "法國","answer": "X"},{"id": 2,"text": "義大利","answer": "O"},{"id": 3,"text": "日本","answer": "X"},{"id": 4,"text": "希臘","answer": "X"}]
+            "content": [{"id": 1,"text": "法國","answer": "X"},{"id": 2,"text": "義大利","answer": "O"},{"id": 3,"text": "日本","answer": "X"},{"id": 4,"text": "希臘","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -174,7 +183,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我們第一次約會的地點是 ?",
-            "content": [{"id": 1,"text": "電影院","answer": "X"},{"id": 2,"text": "我的家中","answer": "X"},{"id": 3,"text": "咖啡店","answer": "O"},{"id": 4,"text": "你的家中","answer": "X"}]
+            "content": [{"id": 1,"text": "電影院","answer": "X"},{"id": 2,"text": "我的家中","answer": "X"},{"id": 3,"text": "咖啡店","answer": "O"},{"id": 4,"text": "你的家中","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -190,7 +200,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我喜歡怎麼樣的自然環境 ?",
-            "content": [{"id": 1,"text": "海灘","answer": "X"},{"id": 2,"text": "山中","answer": "X"},{"id": 3,"text": "森林","answer": "O"},{"id": 4,"text": "海洋","answer": "X"}]
+            "content": [{"id": 1,"text": "海灘","answer": "X"},{"id": 2,"text": "山中","answer": "X"},{"id": 3,"text": "森林","answer": "O"},{"id": 4,"text": "海洋","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -206,7 +217,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我的生日是哪一天 ?",
-            "content": [{"id": 1,"text": "3/12","answer": "X"},{"id": 2,"text": "7/20","answer": "O"},{"id": 3,"text": "10/5","answer": "X"},{"id": 4,"text": "5/5","answer": "X"}]
+            "content": [{"id": 1,"text": "3/12","answer": "X"},{"id": 2,"text": "7/28","answer": "O"},{"id": 3,"text": "10/5","answer": "X"},{"id": 4,"text": "5/5","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -222,7 +234,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我最喜歡你性格上的哪一點 ?",
-            "content": [{"id": 1,"text": "溫柔體貼","answer": "O"},{"id": 2,"text": "誠實","answer": "X"},{"id": 3,"text": "努力充實自己","answer": "X"},{"id": 4,"text": "幽默","answer": "X"}]
+            "content": [{"id": 1,"text": "溫柔體貼","answer": "O"},{"id": 2,"text": "誠實","answer": "X"},{"id": 3,"text": "努力充實自己","answer": "X"},{"id": 4,"text": "幽默","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -238,7 +251,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我們彼此相似的地方 ?",
-            "content": [{"id": 1,"text": "喜歡玩遊戲","answer": "O"},{"id": 2,"text": "喜歡看小說","answer": "X"},{"id": 3,"text": "喜歡運動","answer": "X"},{"id": 4,"text": "喜歡聽音樂","answer": "X"}]
+            "content": [{"id": 1,"text": "喜歡玩遊戲","answer": "O"},{"id": 2,"text": "喜歡看小說","answer": "X"},{"id": 3,"text": "喜歡運動","answer": "X"},{"id": 4,"text": "喜歡聽音樂","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
@@ -254,7 +268,8 @@
             "modifyTitle": "問 題 編 輯",
             "description": "點擊圓點決定正確的選項",
             "question": "我的幸運數字是 ?",
-            "content": [{"id": 1,"text": "7","answer": "O"},{"id": 2,"text": "3","answer": "X"},{"id": 3,"text": "6","answer": "X"},{"id": 4,"text": "9","answer": "X"}]
+            "content": [{"id": 1,"text": "7","answer": "O"},{"id": 2,"text": "3","answer": "X"},{"id": 3,"text": "6","answer": "X"},{"id": 4,"text": "9","answer": "X"}],
+            "size": 28
         },
         "score": {
           "modifyTitle": "本 題 目 獲 得 分 數",
