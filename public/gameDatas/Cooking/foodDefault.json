@@ -42,6 +42,41 @@
       "defaultData": {
         "description": "炒飯"
       }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/biscuit1.png"
+      },
+      "defaultData": {
+        "description": "圓形餅乾"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/biscuit2.png"
+      },
+      "defaultData": {
+        "description": "方形餅乾"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/biscuit3.png"
+      },
+      "defaultData": {
+        "description": "褐色圓形餅乾"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/biscuit4.png"
+      },
+      "defaultData": {
+        "description": "褐色方形餅乾"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/character_biscuit.png"
+      },
+      "defaultData": {
+        "description": "微笑餅乾"
+      }
     }
   ]
 }

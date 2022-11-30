@@ -68,6 +68,13 @@
       "defaultData": {
         "description": "夜晚星空"
       }
+    },{
+      "img": {
+        "src": "/img/Games/Common/loveBg.png"
+      },
+      "defaultData": {
+        "description": "粉色漸層"
+      }
     }
     
   ]

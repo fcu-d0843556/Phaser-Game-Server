@@ -63,6 +63,48 @@
       "defaultData": {
         "description": "給你五星！"
       }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/halloween_pumpkin1.png"
+      },
+      "defaultData": {
+        "description": "開心南瓜"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/halloween_pumpkin2.png"
+      },
+      "defaultData": {
+        "description": "壞南瓜"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/halloween_pumpkin3.png"
+      },
+      "defaultData": {
+        "description": "微笑南瓜"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/halloween_pumpkin4.png"
+      },
+      "defaultData": {
+        "description": "X南瓜"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/halloween_pumpkin5.png"
+      },
+      "defaultData": {
+        "description": "骷髏南瓜"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CookingGame/halloween_pumpkin6.png"
+      },
+      "defaultData": {
+        "description": "可愛南瓜"
+      }
     }
   ]
 }

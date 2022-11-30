@@ -116,6 +116,26 @@
         }
       ]
     },
+    "player": {
+      "modifyTitle": "玩 家",
+      "modifyDetail": "可以設定遊戲玩家的圖片",
+      "name": "player",
+      "items": [
+        {
+          "parent": "player",
+          "name": "player",
+          "modifyTitle": "玩 家",
+          "img": {
+            "src": "/img/Games/CatchFruitGame/boy.png",
+            "size": 30,
+            "position": {
+              "x": 180,
+              "y": 410
+            }
+          }
+        }
+      ]
+    },
     "gameoverMessage": {
       "modifyTitle": "遊 戲 結 束 評 價",
       "modifyDetail": "根據玩家遊戲結束時獲得的分數，我們可以設置不同的文字",

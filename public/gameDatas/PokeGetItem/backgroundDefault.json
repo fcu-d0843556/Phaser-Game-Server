@@ -68,6 +68,13 @@
       "defaultData": {
         "description": "夜晚星空"
       }
+    },{
+      "img": {
+        "src": "/img/Games/Common/orange_green.png"
+      },
+      "defaultData": {
+        "description": "橘色綠色漸層"
+      }
     }
     
   ]

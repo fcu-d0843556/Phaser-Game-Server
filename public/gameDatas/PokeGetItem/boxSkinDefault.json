@@ -79,6 +79,41 @@
         }
       },{
         "img": {
+          "src": "/img/Games/PokeGetItemGame/christmas_rabbit.png"
+        },
+        "defaultData": {
+          "description": "聖誕兔子"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/christmas_girl.png"
+        },
+        "defaultData": {
+          "description": "聖誕女孩"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/christmas_boy.png"
+        },
+        "defaultData": {
+          "description": "聖誕男孩"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/hat_penguin_face.png"
+        },
+        "defaultData": {
+          "description": "聖誕企鵝"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/christmas_monkey.png"
+        },
+        "defaultData": {
+          "description": "聖誕猴子"
+        }
+      },{
+        "img": {
           "src": "/img/Games/PokeGetItemGame/raccoon_face.png"
         },
         "defaultData": {

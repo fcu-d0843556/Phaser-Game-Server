@@ -64,6 +64,20 @@
       "defaultData": {
         "description": "青椒"
       }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/broken_heart.png"
+      },
+      "defaultData": {
+        "description": "心碎"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/heart_love.png"
+      },
+      "defaultData": {
+        "description": "愛心巧克力"
+      }
     }
   ]
 }

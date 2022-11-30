@@ -68,6 +68,20 @@
       "defaultData": {
         "description": "夜晚星空"
       }
+    },{
+      "img": {
+        "src": "/img/Games/Common/halloween_background_orange.png"
+      },
+      "defaultData": {
+        "description": "萬聖夜（橙色）"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/halloween_background_purple.png"
+      },
+      "defaultData": {
+        "description": "萬聖夜（紫色）"
+      }
     }
     
   ]

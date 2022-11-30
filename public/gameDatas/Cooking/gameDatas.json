@@ -105,6 +105,7 @@
             "modifyTitle": "煮 好 的 食 物",
             "img": {
               "src": "/img/Games/CookingGame/wellFood.png",
+              
               "size": 100
             },
             "score": {

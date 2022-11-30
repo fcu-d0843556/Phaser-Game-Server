@@ -161,6 +161,13 @@
         "defaultData": {
           "description": "披薩"
         }
+      },{
+        "img": {
+          "src": "/img/Games/PokeGetItemGame/sweets_cookie.png"
+        },
+        "defaultData": {
+          "description": "餅乾"
+        }
       }
     ]
   }
