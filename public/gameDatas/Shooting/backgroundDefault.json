@@ -68,6 +68,83 @@
       "defaultData": {
         "description": "夜晚星空"
       }
+    },{
+      "img": {
+        "src": "/img/Games/Common/loveBg.png"
+      },
+      "defaultData": {
+        "description": "粉色漸層"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/orange_green.png"
+      },
+      "defaultData": {
+        "description": "橘色綠色漸層"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/halloween_background_orange.png"
+      },
+      "defaultData": {
+        "description": "萬聖夜（橙色）"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/halloween_background_purple.png"
+      },
+      "defaultData": {
+        "description": "萬聖夜（紫色）"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/beachBG.jpg"
+      },
+      "defaultData": {
+        "description": "海灘"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/cafeBG.jpg"
+      },
+      "defaultData": {
+        "description": "咖啡店"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/flowerBG.jpg"
+      },
+      "defaultData": {
+        "description": "花田"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/castleBG.jpg"
+      },
+      "defaultData": {
+        "description": "城堡"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/shopBG.jpg"
+      },
+      "defaultData": {
+        "description": "商場"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/montainBG.jpg"
+      },
+      "defaultData": {
+        "description": "山"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/Common/moonBG.jpg"
+      },
+      "defaultData": {
+        "description": "月球"
+      }
     }
     
   ]

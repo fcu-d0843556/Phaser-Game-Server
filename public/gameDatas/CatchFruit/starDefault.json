@@ -78,6 +78,76 @@
       "defaultData": {
         "description": "愛心巧克力"
       }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/dog_plush.png"
+      },
+      "defaultData": {
+        "description": "小狗玩偶"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/red_robot.png"
+      },
+      "defaultData": {
+        "description": "紅色機器人"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/toy_car.png"
+      },
+      "defaultData": {
+        "description": "賽車玩具"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/robot.png"
+      },
+      "defaultData": {
+        "description": "藍色機器人"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/test_paper.png"
+      },
+      "defaultData": {
+        "description": "考卷"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/present_box.png"
+      },
+      "defaultData": {
+        "description": "禮物"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/christmas_present.png"
+      },
+      "defaultData": {
+        "description": "聖誕禮物"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/halloween_mark_candy.png"
+      },
+      "defaultData": {
+        "description": "糖果"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/halloween_mark_pumpkin.png"
+      },
+      "defaultData": {
+        "description": "南瓜"
+      }
+    },{
+      "img": {
+        "src": "/img/Games/CatchFruitGame/halloween_mark_skeleton.png"
+      },
+      "defaultData": {
+        "description": "骷髏"
+      }
     }
   ]
 }

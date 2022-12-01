@@ -133,6 +133,69 @@
         "defaultData": {
           "description": "星星方塊"
         }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/halloween_mark_cat.png"
+        },
+        "defaultData": {
+          "description": "黑色貓貓"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/halloween_mark_bat.png"
+        },
+        "defaultData": {
+          "description": "蝙蝠"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/halloween_mark_candy.png"
+        },
+        "defaultData": {
+          "description": "糖果"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/halloween_mark_castle.png"
+        },
+        "defaultData": {
+          "description": "萬聖節城堡"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/halloween_mark_magic_hat.png"
+        },
+        "defaultData": {
+          "description": "巫婆帽子"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/halloween_mark_pumpkin.png"
+        },
+        "defaultData": {
+          "description": "南瓜"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/halloween_mark_skeleton.png"
+        },
+        "defaultData": {
+          "description": "骷髏"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/halloween_mark_moon.png"
+        },
+        "defaultData": {
+          "description": "月亮"
+        }
+      },{
+        "img": {
+          "src": "/img/Games/CatchFruitGame/halloween_mark_ghost.png"
+        },
+        "defaultData": {
+          "description": "小幽靈"
+        }
       }
     ]
   }
