@@ -32,7 +32,7 @@
           "text": {
             "modifyTitle": "遊 戲 說 明",
             "description": "遊戲開始前的遊戲說明內容",
-            "content": "點擊左右箭頭來讓\n角色進行移動吧\n\n看你能不能找時間內\n撿到越多星星！",
+            "content": "點擊左右箭頭來讓\n角色進行移動吧\n\n看你能不能找時間內\n接到越多香蕉！",
             "inputType": "text",
             "size": 24
           } 
@@ -50,7 +50,7 @@
           "modifyTitle": "遊 戲 時 間",
           "text": {
             "modifyTitle": "時 間",
-            "content": 10,
+            "content": 30,
             "inputType": "number",
             "unit": "秒",
             "max": 1000,
@@ -69,8 +69,8 @@
           "name": "star1",
           "modifyTitle": "物 件 1",
           "img": {
-            "src": "/img/Games/CatchFruitGame/star.png",
-            "size": 100
+            "src": "/img/Games/CatchFruitGame/banana.png",
+            "size": 20
           },
           "text": {
             "modifyTitle": "接 到 物 件 文 字",
@@ -94,8 +94,8 @@
           "name": "star2",
           "modifyTitle": "物 件 2",
           "img": {
-            "src": "/img/Games/CatchFruitGame/bomb.png",
-            "size": 150
+            "src": "/img/Games/CatchFruitGame/bananaSkin.png",
+            "size": 20
           },
           "text": {
             "modifyTitle": "接 到 物 件 文 字",
