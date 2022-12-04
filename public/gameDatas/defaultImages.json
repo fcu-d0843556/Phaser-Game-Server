@@ -1,45 +1,4 @@
 {
-  "background": {
-    "title": "休閒",
-    "items": [
-      {
-        "src": "/img/Games/Common/background.png",
-        "description": "藍天背景"
-      },
-      {
-        "src": "/img/Games/CookingGame/kitchenBG.jpg",
-        "description": "廚房背景"
-      },
-      {
-        "src": "/img/Games/Common/night_sky.jpg",
-        "description": "夜晚星空"
-      },
-      {
-        "src": "/img/Games/Common/beachBG.jpg",
-        "description": "海灘"
-      },
-      {
-        "src": "/img/Games/Common/cafeBG.jpg",
-        "description": "咖啡店"
-      },
-      {
-        "src": "/img/Games/Common/flowerBG.jpg",
-        "description": "花田"
-      },
-      {
-        "src": "/img/Games/Common/shopBG.jpg",
-        "description": "商場"
-      },
-      {
-        "src": "/img/Games/Common/montainBG.jpg",
-        "description": "山"
-      },
-      {
-        "src": "/img/Games/Common/moonBG.jpg",
-        "description": "月球"
-      }
-    ]
-  },
   "player": {
     "title": "人物",
     "items": [
@@ -58,14 +17,6 @@
       {
         "src": "/img/Games/CatchFruitGame/whiteStickMan_one.png",
         "description": "小白人2"
-      },
-      {
-        "src": "/img/Games/CatchFruitGame/robot.png",
-        "description": "機器人"
-      },
-      {
-        "src": "/img/Games/CatchFruitGame/dinosaur_kid.png",
-        "description": "穿恐龍裝的小孩"
       },
       {
         "src": "/img/Games/CookingGame/maskManAngry.png",
@@ -276,7 +227,7 @@
     ]
   },
   "halloween": {
-    "title": "萬聖節",
+    "title": "萬聖節主題",
     "items": [
       {
         "src": "/img/Games/Common/foodBg.png",
@@ -365,7 +316,7 @@
     ]
   },
   "christmas": {
-    "title": "聖誕節",
+    "title": "聖誕節主題",
     "items": [
       {
         "src": "/img/Games/Common/foodBg1.png",
@@ -418,11 +369,27 @@
       {
         "src": "/img/Games/PokeGetItemGame/christmas_monkey.png",
         "description": "聖誕猴子"
+      },
+      {
+        "src": "/img/Games/CookingGame/biscuit1.png",
+        "description": "圓形餅乾"
+      },
+      {
+        "src": "/img/Games/CookingGame/biscuit2.png",
+        "description": "方形餅乾"
+      },
+      {
+        "src": "/img/Games/CookingGame/biscuit3.png",
+        "description": "褐色圓形餅乾"
+      },
+      {
+        "src": "/img/Games/CookingGame/biscuit4.png",
+        "description": "褐色方形餅乾"
       }
     ]
   },
   "valentine": {
-    "title": "情人節",
+    "title": "情人節主題",
     "items": [
       {
         "src": "/img/Games/Common/loveBg.png",
@@ -439,11 +406,15 @@
       {
         "src": "/img/Games/CatchFruitGame/heart_love.png",
         "description": "愛心巧克力"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/lipstick.png",
+        "description": "口紅"
       }
     ]
   },
   "toy": {
-    "title": "童年和幻想",
+    "title": "童年和幻想主題",
     "items": [
       {
         "src": "/img/Games/Common/blueSky.png",
@@ -454,12 +425,12 @@
         "description": "城堡"
       },
       {
-        "src": "/img/Games/CatchFruitGame/dog_plush.png",
-        "description": "小狗玩偶"
+        "src": "/img/Games/CatchFruitGame/dinosaur_kid.png",
+        "description": "穿恐龍裝的小孩"
       },
       {
-        "src": "/img/Games/CatchFruitGame/red_robot.png",
-        "description": "紅色機器人"
+        "src": "/img/Games/CatchFruitGame/dog_plush.png",
+        "description": "小狗玩偶"
       },
       {
         "src": "/img/Games/CatchFruitGame/toy_car.png",
@@ -467,7 +438,15 @@
       },
       {
         "src": "/img/Games/CatchFruitGame/robot.png",
+        "description": "藍色機器人(愛心)"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/robot.png",
         "description": "藍色機器人"
+      },
+      {
+        "src": "/img/Games/CatchFruitGame/red_robot.png",
+        "description": "紅色機器人"
       },
       {
         "src": "/img/Games/CookingGame/character_biscuit.png",
@@ -484,6 +463,74 @@
       {
         "src": "/img/Games/CatchFruitGame/bomb.png",
         "description": "炸彈"
+      },
+      {
+        "src": "/img/Games/CatchFruitGame/test_paper.png",
+        "description": "考卷"
+      },
+      {
+        "src": "/img/Games/ShootingGame/balloon1.png",
+        "description": "紅色氣球"
+      },
+      {
+        "src": "/img/Games/ShootingGame/balloon2.png",
+        "description": "綠色氣球"
+      },
+      {
+        "src": "/img/Games/ShootingGame/balloon3.png",
+        "description": "粉紅氣球"
+      },
+      {
+        "src": "/img/Games/ShootingGame/balloon4.png",
+        "description": "黃色氣球"
+      },
+      {
+        "src": "/img/Games/ShootingGame/balloon5.png",
+        "description": "藍色氣球"
+      },{
+        "src": "/img/Games/PokeGetItemGame/balloons.png",
+        "description": "氣球串"
+      }
+    ]
+  },
+  "background": {
+    "title": "其他背景主題",
+    "items": [
+      {
+        "src": "/img/Games/Common/background.png",
+        "description": "藍天背景"
+      },
+      {
+        "src": "/img/Games/CookingGame/kitchenBG.jpg",
+        "description": "廚房背景"
+      },
+      {
+        "src": "/img/Games/Common/night_sky.jpg",
+        "description": "夜晚星空"
+      },
+      {
+        "src": "/img/Games/Common/beachBG.jpg",
+        "description": "海灘"
+      },
+      {
+        "src": "/img/Games/Common/cafeBG.jpg",
+        "description": "咖啡店"
+      },
+      {
+        "src": "/img/Games/Common/flowerBG.jpg",
+        "description": "花田"
+      },
+      {
+        "src": "/img/Games/Common/shopBG.jpg",
+        "description": "商場"
+      },
+      {
+        "src": "/img/Games/Common/montainBG.jpg",
+        "description": "山"
+      },
+      {
+        "src": "/img/Games/Common/moonBG.jpg",
+        "description": "月球"
       }
     ]
   }

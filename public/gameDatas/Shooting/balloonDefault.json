@@ -1,44 +1,5 @@
 {
   "items": [
-    {
-      "img": {
-        "src": "/img/Games/ShootingGame/balloon1.png"
-      },
-      "defaultData": {
-        "description": "Red Balloon"
-      }
-    },
-    {
-      "img": {
-        "src": "/img/Games/ShootingGame/balloon2.png"
-      },
-      "defaultData": {
-        "description": "Green Balloon"
-      }
-    },
-    {
-      "img": {
-        "src": "/img/Games/ShootingGame/balloon3.png"
-      },
-      "defaultData": {
-        "description": "Pink Balloon"
-      }
-    },
-    {
-      "img": {
-        "src": "/img/Games/ShootingGame/balloon4.png"
-      },
-      "defaultData": {
-        "description": "Yellow Balloon"
-      }
-    },
-    {
-      "img": {
-        "src": "/img/Games/ShootingGame/balloon5.png"
-      },
-      "defaultData": {
-        "description": "Blue Balloon"
-      }
-    }
+    
   ]
 }
