@@ -2,48 +2,6 @@
   "items": [
     {
       "img": {
-        "src": "/img/Games/CookingGame/riceCan.png"
-      },
-      "defaultData": {
-        "description": "新米"
-      }
-    },{
-      "img": {
-        "src": "/img/Games/CookingGame/foodCan.png"
-      },
-      "defaultData": {
-        "description": "食物桶"
-      }
-    },{
-      "img": {
-        "src": "/img/Games/CookingGame/rawFood.png"
-      },
-      "defaultData": {
-        "description": "生的食物"
-      }
-    },{
-      "img": {
-        "src": "/img/Games/CookingGame/wellFood.png"
-      },
-      "defaultData": {
-        "description": "煮好的食物"
-      }
-    },{
-      "img": {
-        "src": "/img/Games/CookingGame/rice.png"
-      },
-      "defaultData": {
-        "description": "米飯"
-      }
-    },{
-      "img": {
-        "src": "/img/Games/CookingGame/firedRice.png"
-      },
-      "defaultData": {
-        "description": "炒飯"
-      }
-    },{
-      "img": {
         "src": "/img/Games/CookingGame/biscuit1.png"
       },
       "defaultData": {
@@ -69,13 +27,6 @@
       },
       "defaultData": {
         "description": "褐色方形餅乾"
-      }
-    },{
-      "img": {
-        "src": "/img/Games/CookingGame/character_biscuit.png"
-      },
-      "defaultData": {
-        "description": "微笑餅乾"
       }
     }
   ]

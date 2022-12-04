@@ -109,23 +109,6 @@
         }
       },{
         "parent": "questions",
-        "name": "question6",
-        "modifyTitle": "問 題",
-        "question": {
-            "modifyTitle": "問 題 編 輯",
-            "description": "點擊圓點決定正確的選項",
-            "question": "我最想結婚的年齡是 ?",
-            "content": [{"id": 1,"text": "25 - 30","answer": "O"},{"id": 2,"text": "30 - 35","answer": "X"},{"id": 3,"text": "35 - 40","answer": "X"},{"id": 4,"text": "20 - 25","answer": "X"}],
-            "size": 28
-        },
-        "score": {
-          "modifyTitle": "本 題 目 獲 得 分 數",
-          "content": 10, 
-          "max": 1000,
-          "min": -1000
-        }
-      },{
-        "parent": "questions",
         "name": "question7",
         "modifyTitle": "問 題",
         "question": {
@@ -177,40 +160,6 @@
         }
       },{
         "parent": "questions",
-        "name": "question10",
-        "modifyTitle": "問 題",
-        "question": {
-            "modifyTitle": "問 題 編 輯",
-            "description": "點擊圓點決定正確的選項",
-            "question": "我們第一次約會的地點是 ?",
-            "content": [{"id": 1,"text": "電影院","answer": "X"},{"id": 2,"text": "我的家中","answer": "X"},{"id": 3,"text": "咖啡店","answer": "O"},{"id": 4,"text": "你的家中","answer": "X"}],
-            "size": 28
-        },
-        "score": {
-          "modifyTitle": "本 題 目 獲 得 分 數",
-          "content": 10, 
-          "max": 1000,
-          "min": -1000
-        }
-      },{
-        "parent": "questions",
-        "name": "question11",
-        "modifyTitle": "問 題",
-        "question": {
-            "modifyTitle": "問 題 編 輯",
-            "description": "點擊圓點決定正確的選項",
-            "question": "我喜歡怎麼樣的自然環境 ?",
-            "content": [{"id": 1,"text": "海灘","answer": "X"},{"id": 2,"text": "山中","answer": "X"},{"id": 3,"text": "森林","answer": "O"},{"id": 4,"text": "海洋","answer": "X"}],
-            "size": 28
-        },
-        "score": {
-          "modifyTitle": "本 題 目 獲 得 分 數",
-          "content": 10, 
-          "max": 1000,
-          "min": -1000
-        }
-      },{
-        "parent": "questions",
         "name": "question12",
         "modifyTitle": "問 題",
         "question": {
@@ -235,40 +184,6 @@
             "description": "點擊圓點決定正確的選項",
             "question": "我最喜歡你性格上的哪一點 ?",
             "content": [{"id": 1,"text": "溫柔體貼","answer": "O"},{"id": 2,"text": "誠實","answer": "X"},{"id": 3,"text": "努力充實自己","answer": "X"},{"id": 4,"text": "幽默","answer": "X"}],
-            "size": 28
-        },
-        "score": {
-          "modifyTitle": "本 題 目 獲 得 分 數",
-          "content": 10, 
-          "max": 1000,
-          "min": -1000
-        }
-      },{
-        "parent": "questions",
-        "name": "question14",
-        "modifyTitle": "問 題",
-        "question": {
-            "modifyTitle": "問 題 編 輯",
-            "description": "點擊圓點決定正確的選項",
-            "question": "我們彼此相似的地方 ?",
-            "content": [{"id": 1,"text": "喜歡玩遊戲","answer": "O"},{"id": 2,"text": "喜歡看小說","answer": "X"},{"id": 3,"text": "喜歡運動","answer": "X"},{"id": 4,"text": "喜歡聽音樂","answer": "X"}],
-            "size": 28
-        },
-        "score": {
-          "modifyTitle": "本 題 目 獲 得 分 數",
-          "content": 10, 
-          "max": 1000,
-          "min": -1000
-        }
-      },{
-        "parent": "questions",
-        "name": "question15",
-        "modifyTitle": "問 題",
-        "question": {
-            "modifyTitle": "問 題 編 輯",
-            "description": "點擊圓點決定正確的選項",
-            "question": "我的幸運數字是 ?",
-            "content": [{"id": 1,"text": "7","answer": "O"},{"id": 2,"text": "3","answer": "X"},{"id": 3,"text": "6","answer": "X"},{"id": 4,"text": "9","answer": "X"}],
             "size": 28
         },
         "score": {
