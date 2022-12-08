@@ -347,7 +347,6 @@
         "src": "/img/Games/Common/newYearBg.png",
         "description": "橙色漸層背景"
       },
-      
       {
         "src": "/img/Games/Common/halloween_background_orange.png",
         "description": "萬聖夜（橙色）"
@@ -546,21 +545,30 @@
       {
         "src": "/img/Games/ShootingGame/fish.png",
         "description": "年年有餘(魚)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/upsidedown_fu.png",
         "description": "福到(倒)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/apple.png",
         "description": "平(蘋)安如意"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/pineapple.png",
         "description": "好運旺旺來"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/lettuce.png",
         "description": "生財(菜)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/money_pig.png",
         "description": "招財進寶"
+      },
+      {
+        "src": "/img/Games/ShootingGame/no_money.png",
+        "description": "沒錢了"
       },
       {
         "src": "/img/Games/ShootingGame/mouse_newYear.png",
@@ -577,28 +585,36 @@
       {
         "src": "/img/Games/ShootingGame/rabbit_newYear.png",
         "description": "兔(福)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/dragon_newYear.png",
         "description": "龍(金)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/snake_newYear.png",
         "description": "蛇(金)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/horse_newYear.png",
         "description": "馬(金)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/sheep_newYear.png",
         "description": "羊(福)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/monkey_newYear.png",
         "description": "猴(福)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/chicken_newYear.png",
         "description": "雞(福)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/dog_newYear.png",
         "description": "狗(福)"
-      },{
+      },
+      {
         "src": "/img/Games/ShootingGame/pig_newYear.png",
         "description": "豬(福)"
       }
