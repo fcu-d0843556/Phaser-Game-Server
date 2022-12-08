@@ -1,6 +1,6 @@
 {
   "player": {
-    "title": "人物",
+    "title": "🏃人物",
     "items": [
       {
         "src": "/img/Games/CatchFruitGame/boy.png",
@@ -19,46 +19,114 @@
         "description": "小白人2"
       },
       {
-        "src": "/img/Games/CookingGame/maskManAngry.png",
-        "description": "生氣的男顧客"
+        "src": "/img/Games/CookingGame/maskManSmile.png",
+        "description": "開心的男顧客"
       },
       {
         "src": "/img/Games/CookingGame/maskMan.png",
         "description": "男顧客"
       },
       {
-        "src": "/img/Games/CookingGame/maskManSmile.png",
-        "description": "開心的男顧客"
-      },
-      {
-        "src": "/img/Games/CookingGame/maskWomanAngry.png",
-        "description": "生氣的女顧客"
-      },
-      {
-        "src": "/img/Games/CookingGame/maskWoman.png",
-        "description": "女顧客"
+        "src": "/img/Games/CookingGame/maskManAngry.png",
+        "description": "生氣的男顧客"
       },
       {
         "src": "/img/Games/CookingGame/maskWomanSmile.png",
         "description": "開心的女顧客"
       },
       {
-        "src": "/img/Games/CookingGame/womanstar1.png",
-        "description": "給你一星.."
+        "src": "/img/Games/CookingGame/maskWoman.png",
+        "description": "女顧客"
       },
       {
-        "src": "/img/Games/CookingGame/womanstar3.png",
-        "description": "給你三星"
+        "src": "/img/Games/CookingGame/maskWomanAngry.png",
+        "description": "生氣的女顧客"
       },
       {
-        "src": "/img/Games/CookingGame/womanstar5.png",
-        "description": "給你五星！"
+        "src": "/img/Games/CookingGame/business_woman_happy.png",
+        "description": "開心的女上班族"
+      },
+      {
+        "src": "/img/Games/CookingGame/business_woman_normal.png",
+        "description": "女上班族"
+      },
+      {
+        "src": "/img/Games/CookingGame/business_woman_sad.png",
+        "description": "生氣的女上班族"
+      },
+      {
+        "src": "/img/Games/CookingGame/business_man_happy.png",
+        "description": "開心的男上班族"
+      },
+      {
+        "src": "/img/Games/CookingGame/business_man_normal.png",
+        "description": "男上班族"
+      },
+      {
+        "src": "/img/Games/CookingGame/business_man_sad.png",
+        "description": "生氣的男上班族"
+      },
+      {
+        "src": "/img/Games/CookingGame/babygirl_laugh.png",
+        "description": "開心的女嬰兒"
+      },
+      {
+        "src": "/img/Games/CookingGame/babygirl_smile.png",
+        "description": "女嬰兒"
+      },
+      {
+        "src": "/img/Games/CookingGame/babygirl_angry.png",
+        "description": "生氣的女嬰兒"
+      },
+      {
+        "src": "/img/Games/CookingGame/babyboy_laugh.png",
+        "description": "開心的男嬰兒"
+      },
+      {
+        "src": "/img/Games/CookingGame/babyboy_smile.png",
+        "description": "男嬰兒"
+      },
+      {
+        "src": "/img/Games/CookingGame/babyboy_angry.png",
+        "description": "生氣的男嬰兒"
       }
     ]
   },
   "animals": {
-    "title": "動物",
+    "title": "🐱動物",
     "items": [
+      {
+        "src": "/img/Games/CookingGame/cat_happy.png",
+        "description": "小貓(開心)"
+      },
+      {
+        "src": "/img/Games/CookingGame/cat_idea.png",
+        "description": "小貓(驚訝)"
+      },
+      {
+        "src": "/img/Games/CookingGame/cat_smile.png",
+        "description": "小貓(微笑)"
+      },
+      {
+        "src": "/img/Games/CookingGame/cat_shock.png",
+        "description": "小狗(流汗)"
+      },
+      {
+        "src": "/img/Games/CookingGame/dog_happy.png",
+        "description": "小狗(開心)"
+      },
+      {
+        "src": "/img/Games/CookingGame/dog_idea.png",
+        "description": "小狗(驚訝)"
+      },
+      {
+        "src": "/img/Games/CookingGame/dog_smile.png",
+        "description": "小狗(微笑)"
+      },
+      {
+        "src": "/img/Games/CookingGame/dog_shock.png",
+        "description": "小狗(流汗)"
+      },
       {
         "src": "/img/Games/CatchFruitGame/cowF.png",
         "description": "奶牛"
@@ -114,7 +182,129 @@
     ]
   },
   "foods": {
-    "title": "食物",
+    "title": "🍕食物類",
+    "items": [
+      {
+        "src": "/img/Games/CookingGame/riceCan.png",
+        "description": "新米"
+      },
+      {
+        "src": "/img/Games/CookingGame/rice.png",
+        "description": "米飯"
+      },
+      {
+        "src": "/img/Games/CookingGame/firedRice.png",
+        "description": "炒飯"
+      },
+      {
+        "src": "/img/Games/CookingGame/ramen_machine.png",
+        "description": "拉麵販賣機"
+      },
+      {
+        "src": "/img/Games/CookingGame/ramen_close.png",
+        "description": "泡麵(未煮好)"
+      },
+      {
+        "src": "/img/Games/CookingGame/ramen_open.png",
+        "description": "泡麵(煮好)"
+      },
+      {
+        "src": "/img/Games/CookingGame/meat_bug.png",
+        "description": "肉袋"
+      },
+      {
+        "src": "/img/Games/CookingGame/raw_meat.png",
+        "description": "生肉"
+      },
+      {
+        "src": "/img/Games/CookingGame/cooked_meat.png",
+        "description": "煮好的肉"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/egg_bucket.png",
+        "description": "一盒雞蛋"
+      },
+      {
+        "src": "/img/Games/CookingGame/raw_egg.png",
+        "description": "生雞蛋"
+      },
+      {
+        "src": "/img/Games/CookingGame/cooked_egg.png",
+        "description": "煮好的雞蛋"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/bentou.png",
+        "description": "便當"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/curry.png",
+        "description": "咖喱飯"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/jiaozi.png",
+        "description": "餃子"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/paomian.png",
+        "description": "泡麵"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/sushi.png",
+        "description": "壽司"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/ramen.png",
+        "description": "拉麵"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/pizza.png",
+        "description": "披薩"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/sweets_cookie.png",
+        "description": "餅乾"
+      }
+    ]
+  },
+  "beverage": {
+    "title": "🥤飲品類",
+    "items": [
+      {
+        "src": "/img/Games/PokeGetItemGame/drink_milk.png",
+        "description": "草莓奶昔"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/coffee_cup.png",
+        "description": "咖啡"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/bubbletea.png",
+        "description": "珍珠奶茶"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/milk.png",
+        "description": "牛奶"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/cola.png",
+        "description": "可樂"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/coffee.png",
+        "description": "瓶裝咖啡"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/tea.png",
+        "description": "奶茶"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/teaCan.png",
+        "description": "綠茶"
+      }
+    ]
+  },
+  "fruit": {
+    "title": "🍎蔬菜和水果類",
     "items": [
       {
         "src": "/img/Games/CatchFruitGame/banana.png",
@@ -143,91 +333,11 @@
       {
         "src": "/img/Games/CatchFruitGame/vegetableGreen.png",
         "description": "青椒"
-      },
-      {
-        "src": "/img/Games/CookingGame/riceCan.png",
-        "description": "新米"
-      },
-      {
-        "src": "/img/Games/CookingGame/rice.png",
-        "description": "米飯"
-      },
-      {
-        "src": "/img/Games/CookingGame/firedRice.png",
-        "description": "炒飯"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/bentou.png",
-        "description": "便當"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/curry.png",
-        "description": "咖喱飯"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/drink_milk.png",
-        "description": "草莓奶昔"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/egg_bucket.png",
-        "description": "一袋雞蛋"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/jiaozi.png",
-        "description": "餃子"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/paomian.png",
-        "description": "泡麵"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/sushi.png",
-        "description": "壽司"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/ramen.png",
-        "description": "拉麵"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/teaCan.png",
-        "description": "綠茶"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/coffee_cup.png",
-        "description": "咖啡"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/bubbletea.png",
-        "description": "珍珠奶茶"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/milk.png",
-        "description": "牛奶"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/cola.png",
-        "description": "可樂"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/coffee.png",
-        "description": "瓶裝咖啡"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/tea.png",
-        "description": "奶茶"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/pizza.png",
-        "description": "披薩"
-      },
-      {
-        "src": "/img/Games/PokeGetItemGame/sweets_cookie.png",
-        "description": "餅乾"
       }
     ]
   },
   "halloween": {
-    "title": "萬聖節主題",
+    "title": "🎃萬聖節主題",
     "items": [
       {
         "src": "/img/Games/Common/foodBg.png",
@@ -237,10 +347,7 @@
         "src": "/img/Games/Common/newYearBg.png",
         "description": "橙色漸層背景"
       },
-      {
-        "src": "/img/Games/Common/newYearBg2.png",
-        "description": "黃色漸層背景"
-      },
+      
       {
         "src": "/img/Games/Common/halloween_background_orange.png",
         "description": "萬聖夜（橙色）"
@@ -316,7 +423,7 @@
     ]
   },
   "christmas": {
-    "title": "聖誕節主題",
+    "title": "🎄聖誕節主題",
     "items": [
       {
         "src": "/img/Games/Common/foodBg1.png",
@@ -389,7 +496,7 @@
     ]
   },
   "valentine": {
-    "title": "情人節主題",
+    "title": "💕情人節主題",
     "items": [
       {
         "src": "/img/Games/Common/loveBg.png",
@@ -413,8 +520,92 @@
       }
     ]
   },
+  "newYear": {
+    "title": "🧧新年主題",
+    "items": [
+      {
+        "src": "/img/Games/Common/newYearBg2.png",
+        "description": "黃色漸層背景"
+      },
+      {
+        "src": "/img/Games/ShootingGame/circle.png",
+        "description": "燈籠"
+      },
+      {
+        "src": "/img/Games/ShootingGame/orange.png",
+        "description": "大吉(橘)大利"
+      },
+      {
+        "src": "/img/Games/ShootingGame/radish.png",
+        "description": "好彩(菜)頭"
+      },
+      {
+        "src": "/img/Games/ShootingGame/red.png",
+        "description": "紅包"
+      },
+      {
+        "src": "/img/Games/ShootingGame/fish.png",
+        "description": "年年有餘(魚)"
+      },{
+        "src": "/img/Games/ShootingGame/upsidedown_fu.png",
+        "description": "福到(倒)"
+      },{
+        "src": "/img/Games/ShootingGame/apple.png",
+        "description": "平(蘋)安如意"
+      },{
+        "src": "/img/Games/ShootingGame/pineapple.png",
+        "description": "好運旺旺來"
+      },{
+        "src": "/img/Games/ShootingGame/lettuce.png",
+        "description": "生財(菜)"
+      },{
+        "src": "/img/Games/ShootingGame/money_pig.png",
+        "description": "招財進寶"
+      },
+      {
+        "src": "/img/Games/ShootingGame/mouse_newYear.png",
+        "description": "鼠(福)"
+      },
+      {
+        "src": "/img/Games/ShootingGame/cow_newYear.png",
+        "description": "牛(福)"
+      },
+      {
+        "src": "/img/Games/ShootingGame/tiger_newYear.png",
+        "description": "虎(福)"
+      },
+      {
+        "src": "/img/Games/ShootingGame/rabbit_newYear.png",
+        "description": "兔(福)"
+      },{
+        "src": "/img/Games/ShootingGame/dragon_newYear.png",
+        "description": "龍(金)"
+      },{
+        "src": "/img/Games/ShootingGame/snake_newYear.png",
+        "description": "蛇(金)"
+      },{
+        "src": "/img/Games/ShootingGame/horse_newYear.png",
+        "description": "馬(金)"
+      },{
+        "src": "/img/Games/ShootingGame/sheep_newYear.png",
+        "description": "羊(福)"
+      },{
+        "src": "/img/Games/ShootingGame/monkey_newYear.png",
+        "description": "猴(福)"
+      },{
+        "src": "/img/Games/ShootingGame/chicken_newYear.png",
+        "description": "雞(福)"
+      },{
+        "src": "/img/Games/ShootingGame/dog_newYear.png",
+        "description": "狗(福)"
+      },{
+        "src": "/img/Games/ShootingGame/pig_newYear.png",
+        "description": "豬(福)"
+      }
+    ]
+  },
   "toy": {
-    "title": "童年和幻想主題",
+    "title": "🧸童年和幻想主題",
     "items": [
       {
         "src": "/img/Games/Common/blueSky.png",
@@ -487,14 +678,43 @@
       {
         "src": "/img/Games/ShootingGame/balloon5.png",
         "description": "藍色氣球"
-      },{
+      },
+      {
         "src": "/img/Games/PokeGetItemGame/balloons.png",
         "description": "氣球串"
+      },
+      {
+        "src": "/img/Games/ShootingGame/Demon.png",
+        "description": "惡魔"
+      },
+      {
+        "src": "/img/Games/ShootingGame/devil_boss.png",
+        "description": "魔王"
+      },
+      {
+        "src": "/img/Games/ShootingGame/dragon.png",
+        "description": "藍龍"
+      },
+      {
+        "src": "/img/Games/ShootingGame/stone_monster.png",
+        "description": "石像鬼"
+      },
+      {
+        "src": "/img/Games/ShootingGame/scary_cat.png",
+        "description": "貓咪鬼魂"
+      },
+      {
+        "src": "/img/Games/ShootingGame/fly_dog.png",
+        "description": "飛翔的狗"
+      },
+      {
+        "src": "/img/Games/ShootingGame/rpg_hero.png",
+        "description": "英雄人物"
       }
     ]
   },
   "background": {
-    "title": "其他背景主題",
+    "title": "🌃其他背景主題",
     "items": [
       {
         "src": "/img/Games/Common/background.png",

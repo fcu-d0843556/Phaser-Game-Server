@@ -60,7 +60,7 @@
     },
     "food": {
         "modifyTitle": "食 物 相 關",
-        "modifyDetail": "設定遊戲中的生成食物的桶子和不同煮好程度的食物，例如圖片、食物得分等",
+        "modifyDetail": "設定遊戲中的生成食物的桶子和不同煮好程度的食物，例如圖片、食物得分等。您只需要準備生、煮好食物的圖片即可",
         "name": "food",
         "items": [
           {
@@ -68,8 +68,8 @@
             "name": "foodCan",
             "modifyTitle": "食 材 桶",
             "img": {
-              "src": "/img/Games/CookingGame/foodCan.png",
-              "size": 100,
+              "src": "/img/Games/CookingGame/egg_bucket.png",
+              "size": 35,
               "position": {
                 "x": 130,
                 "y": 340
@@ -80,8 +80,8 @@
             "name": "rawFood",
             "modifyTitle": "生 的 食 物",
             "img": {
-              "src": "/img/Games/CookingGame/rawFood.png",
-              "size": 100
+              "src": "/img/Games/CookingGame/raw_egg.png",
+              "size": 20
             },
             "score": {
               "modifyTitle": "食 物 得 分",
@@ -104,9 +104,8 @@
             "name": "wellFood",
             "modifyTitle": "煮 好 的 食 物",
             "img": {
-              "src": "/img/Games/CookingGame/wellFood.png",
-              
-              "size": 100
+              "src": "/img/Games/CookingGame/cooked_egg.png",
+              "size": 30
             },
             "score": {
               "modifyTitle": "食 物 得 分",
