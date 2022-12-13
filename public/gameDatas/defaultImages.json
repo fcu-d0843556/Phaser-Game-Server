@@ -89,6 +89,30 @@
       {
         "src": "/img/Games/CookingGame/babyboy_angry.png",
         "description": "生氣的男嬰兒"
+      },
+      {
+        "src": "/img/Games/CookingGame/mother_happy.png",
+        "description": "媽媽(開心)"
+      },
+      {
+        "src": "/img/Games/CookingGame/mother_smile.png",
+        "description": "媽媽(微笑)"
+      },
+      {
+        "src": "/img/Games/CookingGame/mother_sad.png",
+        "description": "媽媽(傷心)"
+      },
+      {
+        "src": "/img/Games/CookingGame/father_happy.png",
+        "description": "爸爸(開心)"
+      },
+      {
+        "src": "/img/Games/CookingGame/father_smile.png",
+        "description": "爸爸(微笑)"
+      },
+      {
+        "src": "/img/Games/CookingGame/father_sad.png",
+        "description": "爸爸(傷心)"
       }
     ]
   },
@@ -624,8 +648,12 @@
     "title": "🧸童年和幻想主題",
     "items": [
       {
-        "src": "/img/Games/Common/blueSky.png",
-        "description": "城堡背景"
+        "src": "/img/Games/PinballGame/hero.png",
+        "description": "超人"
+      },
+      {
+        "src": "/img/Games/PinballGame/hero_show.png",
+        "description": "英雄戰隊"
       },
       {
         "src": "/img/Games/Common/castleBG.jpg",
@@ -767,6 +795,10 @@
       {
         "src": "/img/Games/Common/moonBG.jpg",
         "description": "月球"
+      },
+      {
+        "src": "/img/Games/Common/bg_outside_buildings.jpg",
+        "description": "室外"
       }
     ]
   }
