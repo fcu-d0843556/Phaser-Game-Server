@@ -465,6 +465,10 @@
         "description": "聖誕禮物"
       },
       {
+        "src": "/img/Games/CatchFruitGame/christmas_santa_hello.png",
+        "description": "聖誕老人"
+      },
+      {
         "src": "/img/Games/PokeGetItemGame/cookie_face.png",
         "description": "薑餅人"
       },
@@ -478,7 +482,7 @@
       },
       {
         "src": "/img/Games/PokeGetItemGame/santa_face.png",
-        "description": "聖誕老人"
+        "description": "聖誕老人(頭像)"
       },
       {
         "src": "/img/Games/PokeGetItemGame/christmas_rabbit.png",
