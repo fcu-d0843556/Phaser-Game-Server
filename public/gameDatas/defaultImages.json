@@ -324,6 +324,21 @@
       {
         "src": "/img/Games/PokeGetItemGame/teaCan.png",
         "description": "綠茶"
+      },{
+        "src": "/img/Games/PokeGetItemGame/drink_uroncha_bottle.png",
+        "description": "烏龍茶"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/juice_orange.png",
+        "description": "柳橙汁"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/juice_apple.png",
+        "description": "蘋果汁"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/lemonade.png",
+        "description": "檸檬汁"
       }
     ]
   },
@@ -357,6 +372,22 @@
       {
         "src": "/img/Games/CatchFruitGame/vegetableGreen.png",
         "description": "青椒"
+      },
+      {
+        "src": "/img/Games/CatchFruitGame/watermelon.png",
+        "description": "西瓜"
+      },
+      {
+        "src": "/img/Games/CatchFruitGame/fruit_veg_Box.png",
+        "description": "蔬菜盒"
+      },
+      {
+        "src": "/img/Games/CatchFruitGame/sweets_fruit.png",
+        "description": "水果聖代"
+      },
+      {
+        "src": "/img/Games/CatchFruitGame/ice_fruit.png",
+        "description": "水果冰"
       }
     ]
   },
@@ -544,6 +575,17 @@
       {
         "src": "/img/Games/PokeGetItemGame/lipstick.png",
         "description": "口紅"
+      },{
+        "src": "/img/Games/PokeGetItemGame/box_cookie.png",
+        "description": "餅乾盒"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/love_cookie.png",
+        "description": "愛心餅乾"
+      },
+      {
+        "src": "/img/Games/PokeGetItemGame/cake.png",
+        "description": "蛋糕"
       }
     ]
   },
